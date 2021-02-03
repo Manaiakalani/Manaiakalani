@@ -1,4 +1,4 @@
-## Aloha! 👋
+# Aloha! 👋
 
 ### I'm Maximilian Stein
 

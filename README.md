@@ -4,7 +4,8 @@
 
 - he/him
 - Redmond, WA
-- Product Manager | @Microsoft
+- Product Manager | [@Microsoft](https://github.com/microsoft)
+- See Docs edits: https://github.com/MaxSteinMS
 
 ![My Stats](https://github-readme-stats.vercel.app/api?username=manaiakalani)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=manaiakalani)]

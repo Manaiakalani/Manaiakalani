@@ -1,15 +1,45 @@
-# Aloha! 🤙🏽
+# 🌺 Aloha! I'm Maximilian Stein 🤙🏽
 
-### I'm Maximilian Stein
+<div align="center">
+  
+**Product Manager @ Microsoft | Digital Native | Gen Z**  
+*Building the future of tech where memes meet mayhem*
 
-- he/him
-- Redmond, WA
-- Product Manager | [@Microsoft](https://github.com/microsoft)
-- See Docs edits: https://github.com/MaxSteinMS
+📍 Redmond, WA | 👨‍💻 he/him
 
-![My Stats](https://github-readme-stats.vercel.app/api?username=manaiakalani)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=manaiakalani)]
+</div>
 
-  <a href="https://github.com/manaiakalani">
-    <img src="https://komarev.com/ghpvc/?username=manaiakalani" alt="page views">
-  </a>
+---
+
+## � About Me
+
+- 💼 Product Manager at **Microsoft**
+- 🎯 Passionate about creating products for digital natives  
+- 📚 Contributing to Microsoft Docs: [MaxSteinMS](https://github.com/MaxSteinMS)
+- 🌊 Hawaiian spirit meets Pacific Northwest innovation
+- 🎮 Believer that the best products come from understanding your users' vibe
+
+---
+
+## �📊 GitHub Stats
+
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=manaiakalani&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=manaiakalani&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9"/>
+</div>
+
+---
+
+## 🤝 Let's Connect!
+
+<div align="center">
+  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-linkedin)
+[![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white)](https://twitter.com/your-twitter)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@microsoft.com)
+
+<img src="https://komarev.com/ghpvc/?username=manaiakalani&color=blueviolet&style=for-the-badge" alt="Profile Views" />
+  
+**"Doges. Tacos. Memes. Welcome to the feed" 🎮✨**
+
+</div>

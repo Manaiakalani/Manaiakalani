@@ -2,7 +2,9 @@
 
 <div align="center">
   
-**Product Manager @ Microsoft Security**  
+**Product Manager @ Microsoft**
+
+
 *Building the future of tech*
 
 📍 Redmond, WA | 👨‍💻 he/him
@@ -11,9 +13,9 @@
 
 ---
 
-## � About Me
+## 🤙🏽 About Me
 
-- 💼 Product Manager at **Microsoft**
+- 💼 Product Manager at **Microsoft Security** | Customer Experience Enginnering (CxE)
 - 🎯 Passionate about creating products for digital natives  
 - 📚 Contributing to Microsoft Security & Microsoft Learn Docs: [MaxSteinMS](https://github.com/MaxSteinMS)
 - 🌊 Hawaiian spirit meets Pacific Northwest innovation
@@ -21,7 +23,7 @@
 
 ---
 
-## �📊 GitHub Stats
+## 📊 GitHub Stats
 
 <div align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=manaiakalani&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff"/>

@@ -2,8 +2,8 @@
 
 <div align="center">
   
-**Product Manager @ Microsoft | Digital Native | Gen Z**  
-*Building the future of tech where memes meet mayhem*
+**Product Manager @ Microsoft Security**  
+*Building the future of tech*
 
 📍 Redmond, WA | 👨‍💻 he/him
 
@@ -15,7 +15,7 @@
 
 - 💼 Product Manager at **Microsoft**
 - 🎯 Passionate about creating products for digital natives  
-- 📚 Contributing to Microsoft Docs: [MaxSteinMS](https://github.com/MaxSteinMS)
+- 📚 Contributing to Microsoft Security & Microsoft Learn Docs: [MaxSteinMS](https://github.com/MaxSteinMS)
 - 🌊 Hawaiian spirit meets Pacific Northwest innovation
 - 🎮 Believer that the best products come from understanding your users' vibe
 

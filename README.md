@@ -26,7 +26,7 @@
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=manaiakalani&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff"/>
+  <img height="180em" src="[https://github-readme-stats.vercel.app/api?username=manaiakalani](https://github-readme-stats.vercel.app/api?username=manaiakalani)&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=manaiakalani&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9"/>
 </div>
 

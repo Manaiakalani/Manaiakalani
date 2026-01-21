@@ -3,7 +3,7 @@
 <div align="center">
   
 <!-- Animated typing effect -->
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=false&width=600&height=80&lines=Hawaiian+spirit+meets+Pacific+Northwest+innovation+🌺;Turning+user+vibes+into+product+features+✨" alt="Typing SVG" /></a>
+<a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&height=60&lines=Hawaiian+spirit+meets+Pacific+Northwest+innovation;Turning+user+vibes+into+product+features" alt="Typing SVG" /></a>
 
 <br/>
 
@@ -65,6 +65,18 @@ fun_facts:
 
 <br clear="right"/>
 
+### 📬 Let's Connect!
+
+<a href="https://linkedin.com/in/manaiakalani">
+  <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0077B5" alt="LinkedIn"/>
+</a>
+<a href="https://aka.ms/MaxStein">
+  <img src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white&labelColor=1DA1F2" alt="Twitter"/>
+</a>
+<a href="https://github.com/MaxSteinMS">
+  <img src="https://img.shields.io/badge/Work_GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="Work GitHub"/>
+</a>
+
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="rainbow line" />
 
 ## 🛠️ Tech & Tools I Work With
@@ -85,43 +97,6 @@ fun_facts:
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
-
-</div>
-
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="rainbow line" />
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=manaiakalani&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=15" alt="GitHub Trophies" />
-</div>
-
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="rainbow line" />
-
-## 📬 Let's Connect!
-
-<div align="center">
-
-<!-- Social badges with hover effects -->
-<a href="https://linkedin.com/in/manaiakalani">
-  <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0077B5" alt="LinkedIn"/>
-</a>
-<a href="https://aka.ms/MaxStein">
-  <img src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white&labelColor=1DA1F2" alt="Twitter"/>
-</a>
-<a href="https://github.com/MaxSteinMS">
-  <img src="https://img.shields.io/badge/Work_GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="Work GitHub"/>
-</a>
-
-<br/><br/>
-
-<!-- Profile views counter -->
-<img src="https://komarev.com/ghpvc/?username=manaiakalani&color=blueviolet&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views" />
-
-<br/><br/>
-
-<!-- Random dev quote -->
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" alt="Random Dev Quote" />
 
 </div>
 

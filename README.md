@@ -2,8 +2,9 @@
 
 <div align="center">
   
-<!-- Animated typing effect -->
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&height=60&lines=Hawaiian+spirit+meets+Pacific+Northwest+innovation;Turning+user+vibes+into+product+features" alt="Typing SVG" /></a>
+<!-- Tagline badges -->
+![Hawaiian Spirit](https://img.shields.io/badge/🌺_Hawaiian_spirit_meets_Pacific_Northwest_innovation-0d1117?style=for-the-badge)
+![User Vibes](https://img.shields.io/badge/✨_Turning_user_vibes_into_product_features-0d1117?style=for-the-badge)
 
 <br/>
 

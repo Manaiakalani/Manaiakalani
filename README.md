@@ -3,7 +3,7 @@
 <div align="center">
   
 <!-- Animated typing effect -->
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=false&width=600&height=80&lines=Hawaiian+spirit+meets+Pacific+Northwest+innovation+🌺;Turning+user+vibes+into+product+features+✨" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&height=60&lines=Hawaiian+spirit+meets+Pacific+Northwest+innovation;Turning+user+vibes+into+product+features" alt="Typing SVG" /></a>
 
 <br/>
 
@@ -93,7 +93,7 @@ fun_facts:
 ## 🏆 GitHub Trophies
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=manaiakalani&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=15" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=manaiakalani&theme=onestar&no-frame=true&no-bg=true&column=4&margin-w=15&margin-h=15" alt="GitHub Trophies" />
 </div>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="rainbow line" />

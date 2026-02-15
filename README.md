@@ -1,108 +1,80 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,50:764ba2,100:f093fb&height=200&section=header&text=Aloha!%20I'm%20Maximilian%20Stein%20🤙🏽&fontSize=36&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Product%20Manager%20@%20Microsoft%20|%20Building%20the%20future%20of%20tech&descAlignY=55&descSize=16" />
-
 <div align="center">
-  
-<!-- Animated typing effect -->
-<a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&height=60&lines=Hawaiian+spirit+meets+Pacific+Northwest+innovation;Turning+user+vibes+into+product+features" alt="Typing SVG" /></a>
 
-<br/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,30:161b22,60:1a2332,100:58a6ff&height=180&section=header&text=Maximilian%20Stein&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=32&desc=Product%20Manager%20·%20Microsoft%20Security&descAlignY=52&descSize=18&descColor=8b949e" />
 
-<!-- Quick info badges -->
-![Location](https://img.shields.io/badge/📍_Redmond,_WA-0d1117?style=flat-square)
-![Pronouns](https://img.shields.io/badge/👨‍💻_he/him-0d1117?style=flat-square)
-![Role](https://img.shields.io/badge/🛡️_Microsoft_Security-0078D4?style=flat-square&logo=microsoft&logoColor=white)
+[![Location](https://img.shields.io/badge/Redmond,_WA-58a6ff?style=flat&logo=googlemaps&logoColor=white)](https://github.com/Manaiakalani)&nbsp;&nbsp;
+[![Microsoft](https://img.shields.io/badge/Microsoft_Security_(CxE)-0078D4?style=flat&logo=microsoft&logoColor=white)](https://github.com/Manaiakalani)&nbsp;&nbsp;
+[![Pronouns](https://img.shields.io/badge/he/him-8b949e?style=flat)](https://github.com/Manaiakalani)
 
 </div>
 
-<!-- Animated wave divider -->
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="rainbow line" />
+---
 
-## 📊 GitHub Analytics
-
-<div align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=manaiakalani&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=79c0ff&ring_color=58a6ff&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=manaiakalani&layout=compact&langs_count=8&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" alt="Top Languages" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=manaiakalani&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=58a6ff&ring=58a6ff&fire=ff6b35&currStreakLabel=c9d1d9&dates=8b949e" alt="GitHub Streak" />
-</div>
-
-<!-- Activity Graph -->
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=manaiakalani&theme=github-dark&hide_border=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ff6b35&area=true&area_color=58a6ff" alt="Contribution Graph" />
-</div>
-
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="rainbow line" />
-
-## 🤙🏽 About Me
-
-<img align="right" alt="Coding" width="300" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"/>
+### 🤙🏽 &nbsp;About Me
 
 ```yaml
 name: Maximilian Stein
-located_in: Redmond, WA 🌲
-current_role: Product Manager @ Microsoft Security (CxE)
+location: Redmond, WA 🌲
+role: Product Manager @ Microsoft Security (CxE)
 
-vibes:
-  - 🌺 Hawaiian spirit in tech
-  - 🎯 Passionate about digital natives
-  - 🌊 Surf the wave of innovation
-  - 🎮 Understanding users is my superpower
+doing:
+  - 💼 Building security experiences customers love
+  - 📚 Contributing to Microsoft Learn documentation
+  - 🤝 Collaborating across engineering & design
 
-currently:
-  - 💼 Building amazing security experiences
-  - 📚 Contributing to Microsoft Learn Docs
-  - 🤝 Collaborating with amazing teams
-  - ☕ Fueled by coffee and good vibes
-
-fun_facts:
-  - 🌴 Island roots, cloud ambitions
-  - 🐕 Doge enthusiast
-  - 🌮 Taco connoisseur
-  - 😂 Meme collector
+interests:
+  - 🌺 Hawaiian roots, Pacific Northwest life
+  - 🌊 Passionate about digital-native user experiences
+  - 🐕 Doge enthusiast · 🌮 Taco connoisseur · 😂 Meme collector
 ```
 
-<br clear="right"/>
+---
 
-### 📬 Let's Connect!
-
-<a href="https://linkedin.com/in/manaiakalani">
-  <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0077B5" alt="LinkedIn"/>
-</a>
-<a href="https://aka.ms/MaxStein">
-  <img src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white&labelColor=1DA1F2" alt="Twitter"/>
-</a>
-<a href="https://github.com/MaxSteinMS">
-  <img src="https://img.shields.io/badge/Work_GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="Work GitHub"/>
-</a>
-
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="rainbow line" />
-
-## 🛠️ Tech & Tools I Work With
+### 🛠️ &nbsp;Tech & Tools
 
 <div align="center">
 
-<!-- Product & Design -->
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white)
-![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
+`Product & Design`
 
-<!-- Microsoft Stack -->
-![Microsoft](https://img.shields.io/badge/Microsoft-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+[![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](#)
+[![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white)](#)
+[![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)](#)
 
-<!-- Languages I understand -->
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
+`Microsoft Ecosystem`
+
+[![Microsoft](https://img.shields.io/badge/Microsoft_365-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)](#)
+[![Azure](https://img.shields.io/badge/Azure-0089D6?style=for-the-badge&logo=microsoftazure&logoColor=white)](#)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](#)
+[![Copilot](https://img.shields.io/badge/GitHub_Copilot-000000?style=for-the-badge&logo=githubcopilot&logoColor=white)](#)
+
+`Languages`
+
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](#)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](#)
+[![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)](#)
 
 </div>
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="rainbow line" />
+---
 
-<!-- Snake animation - Generated by GitHub Action -->
+### 📊 &nbsp;GitHub Analytics
+
+<div align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=manaiakalani&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff&ring_color=58a6ff&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+  &nbsp;
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=manaiakalani&layout=compact&langs_count=8&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" alt="Top Languages" />
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=manaiakalani&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=30363d&ring=58a6ff&fire=ff6b35&currStreakLabel=c9d1d9&dates=8b949e&sideNums=58a6ff&sideLabels=8b949e" alt="GitHub Streak" />
+</div>
+
+---
+
+### 🐍 &nbsp;Contribution Snake
+
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/output/github-contribution-grid-snake-dark.svg" />
@@ -111,5 +83,22 @@ fun_facts:
   </picture>
 </div>
 
-<!-- Footer -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,50:764ba2,100:f093fb&height=120&section=footer&text=🐕%20Doges.%20🌮%20Tacos.%20😂%20Memes.%20Welcome%20to%20the%20feed!&fontSize=18&fontColor=ffffff&animation=twinkling" alt="Footer Wave" />
+---
+
+<div align="center">
+
+### 📬 &nbsp;Let's Connect
+
+<br/>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/manaiakalani)&nbsp;
+[![X](https://img.shields.io/badge/X_(Twitter)-000000?style=for-the-badge&logo=x&logoColor=white)](https://aka.ms/MaxStein)&nbsp;
+[![Work GitHub](https://img.shields.io/badge/Work_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MaxSteinMS)
+
+<br/>
+
+<sub>🌺 Island roots · ☁️ Cloud ambitions · 🤙🏽 Always shipping</sub>
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,30:161b22,60:1a2332,100:58a6ff&height=100&section=footer" />

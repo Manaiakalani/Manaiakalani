@@ -131,7 +131,7 @@ interests:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/manaiakalani)&nbsp;
 [![X](https://img.shields.io/badge/X_(Twitter)-000000?style=for-the-badge&logo=x&logoColor=white)](https://aka.ms/MaxStein)&nbsp;
 [![Work GitHub](https://img.shields.io/badge/Work_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MaxSteinMS)&nbsp;
-[![Website](https://img.shields.io/badge/Website-58a6ff?style=for-the-badge&logo=googlechrome&logoColor=white)](https://manaiakalani.com)
+[![Website](https://img.shields.io/badge/Website-58a6ff?style=for-the-badge&logo=dogecoin&logoColor=white)](https://aka.ms/MaxStein)
 
 <br/>
 

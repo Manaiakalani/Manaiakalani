@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,30:161b22,60:1a2332,100:58a6ff&height=180&section=header&text=Maximilian%20Stein&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=32&desc=Product%20Manager%20·%20Microsoft%20Security&descAlignY=52&descSize=18&descColor=8b949e" />
+<img src="./assets/header.svg" />
 
-[![Location](https://img.shields.io/badge/Redmond,_WA-58a6ff?style=flat&logo=googlemaps&logoColor=white)](https://github.com/Manaiakalani)&nbsp;&nbsp;
-[![Microsoft](https://img.shields.io/badge/Microsoft_Security_(CxE)-0078D4?style=flat&logo=microsoft&logoColor=white)](https://github.com/Manaiakalani)&nbsp;&nbsp;
+[![Location](https://img.shields.io/badge/Redmond,_WA-58a6ff?style=flat&logo=googlemaps&logoColor=white)](https://manaiakalani.com)&nbsp;&nbsp;
+[![Microsoft](https://img.shields.io/badge/Microsoft_Security_(CxE)-0078D4?style=flat&logo=microsoft&logoColor=white)](https://microsoft.com/security)&nbsp;&nbsp;
 [![Pronouns](https://img.shields.io/badge/he/him-8b949e?style=flat)](https://github.com/Manaiakalani)
 
 </div>
@@ -80,6 +80,13 @@ interests:
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](#)
 [![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)](#)
 
+**Frameworks**
+
+[![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)](#)
+[![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](#)
+[![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](#)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](#)
+
 </div>
 
 ---
@@ -99,22 +106,6 @@ interests:
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/stats/default/1-repos-per-language.svg" />
     <img height="170" src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/stats/github_dark/1-repos-per-language.svg" alt="Top Languages" />
   </picture>
-</div>
-
-<br/>
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/stats/github_dark/0-profile-details.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/stats/default/0-profile-details.svg" />
-    <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/stats/github_dark/0-profile-details.svg" alt="Profile Details" />
-  </picture>
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=manaiakalani&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=30363d&ring=58a6ff&fire=ff6b35&currStreakLabel=c9d1d9&dates=8b949e&sideNums=58a6ff&sideLabels=8b949e" alt="GitHub Streak" />
 </div>
 
 ---
@@ -139,7 +130,8 @@ interests:
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/manaiakalani)&nbsp;
 [![X](https://img.shields.io/badge/X_(Twitter)-000000?style=for-the-badge&logo=x&logoColor=white)](https://aka.ms/MaxStein)&nbsp;
-[![Work GitHub](https://img.shields.io/badge/Work_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MaxSteinMS)
+[![Work GitHub](https://img.shields.io/badge/Work_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MaxSteinMS)&nbsp;
+[![Website](https://img.shields.io/badge/Website-58a6ff?style=for-the-badge&logo=googlechrome&logoColor=white)](https://manaiakalani.com)
 
 <br/>
 
@@ -147,4 +139,4 @@ interests:
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,30:161b22,60:1a2332,100:58a6ff&height=100&section=footer" />
+<img src="./assets/footer.svg" />

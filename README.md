@@ -31,14 +31,26 @@ interests:
 <div align="center">
 
 <a href="https://github.com/Manaiakalani/destiny-code-finder">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Manaiakalani&repo=destiny-code-finder&theme=github_dark&hide_border=true&bg_color=0d1117" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/destiny-code-finder-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/destiny-code-finder-light.svg" />
+    <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/destiny-code-finder-dark.svg" alt="destiny-code-finder" />
+  </picture>
 </a>&nbsp;
 <a href="https://github.com/Manaiakalani/x-twitter-dim-mode">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Manaiakalani&repo=x-twitter-dim-mode&theme=github_dark&hide_border=true&bg_color=0d1117" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/x-twitter-dim-mode-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/x-twitter-dim-mode-light.svg" />
+    <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/x-twitter-dim-mode-dark.svg" alt="x-twitter-dim-mode" />
+  </picture>
 </a>
-<a href="https://github.com/Manaiakalani/CxEAmericasStepTracker">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Manaiakalani&repo=CxEAmericasStepTracker&theme=github_dark&hide_border=true&bg_color=0d1117" />
-</a>&nbsp;
+<a href="https://github.com/Manaiakalani/borderlands-loot-hub">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/borderlands-loot-hub-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/borderlands-loot-hub-light.svg" />
+    <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/borderlands-loot-hub-dark.svg" alt="borderlands-loot-hub" />
+  </picture>
+</a>
 
 </div>
 <!-- CURRENTLY_BUILDING:END -->

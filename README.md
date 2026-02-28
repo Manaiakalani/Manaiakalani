@@ -17,11 +17,6 @@ name: Maximilian Stein
 location: Redmond, WA 🌲
 role: Product Manager @ Microsoft Security (CxE)
 
-doing:
-  - 💼 Building security experiences customers love
-  - 📚 Contributing to Microsoft Learn documentation
-  - 🤝 Collaborating across engineering & design
-
 interests:
   - 🌺 Hawaiian roots, Pacific Northwest life
   - 🌊 Passionate about digital-native user experiences
@@ -37,7 +32,6 @@ interests:
 **Product & Design**
 
 [![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](#)
-[![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white)](#)
 [![Azure DevOps](https://img.shields.io/badge/Azure_DevOps-0078D4?style=for-the-badge&logo=azuredevops&logoColor=white)](#)
 
 **Microsoft Ecosystem**

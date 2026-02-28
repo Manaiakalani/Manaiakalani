@@ -31,14 +31,14 @@ interests:
 <div align="center">
 
 <a href="https://github.com/Manaiakalani/destiny-code-finder">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=manaiakalani&repo=destiny-code-finder&theme=github_dark&hide_border=true&bg_color=0d1117" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Manaiakalani&repo=destiny-code-finder&theme=github_dark&hide_border=true&bg_color=0d1117" />
 </a>&nbsp;
 <a href="https://github.com/Manaiakalani/x-twitter-dim-mode">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=manaiakalani&repo=x-twitter-dim-mode&theme=github_dark&hide_border=true&bg_color=0d1117" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Manaiakalani&repo=x-twitter-dim-mode&theme=github_dark&hide_border=true&bg_color=0d1117" />
 </a>
-<a href="https://github.com/Manaiakalani/borderlands-loot-hub">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=manaiakalani&repo=borderlands-loot-hub&theme=github_dark&hide_border=true&bg_color=0d1117" />
-</a>
+<a href="https://github.com/Manaiakalani/CxEAmericasStepTracker">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Manaiakalani&repo=CxEAmericasStepTracker&theme=github_dark&hide_border=true&bg_color=0d1117" />
+</a>&nbsp;
 
 </div>
 <!-- CURRENTLY_BUILDING:END -->

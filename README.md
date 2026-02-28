@@ -25,6 +25,26 @@ interests:
 
 ---
 
+### 🔨 &nbsp;Currently Building
+
+<!-- CURRENTLY_BUILDING:START -->
+<div align="center">
+
+<a href="https://github.com/Manaiakalani/destiny-code-finder">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=manaiakalani&repo=destiny-code-finder&theme=github_dark&hide_border=true&bg_color=0d1117" />
+</a>&nbsp;
+<a href="https://github.com/Manaiakalani/x-twitter-dim-mode">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=manaiakalani&repo=x-twitter-dim-mode&theme=github_dark&hide_border=true&bg_color=0d1117" />
+</a>
+<a href="https://github.com/Manaiakalani/borderlands-loot-hub">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=manaiakalani&repo=borderlands-loot-hub&theme=github_dark&hide_border=true&bg_color=0d1117" />
+</a>
+
+</div>
+<!-- CURRENTLY_BUILDING:END -->
+
+---
+
 ### 🛠️ &nbsp;Tech & Tools
 
 <div align="center">
@@ -44,6 +64,7 @@ interests:
 **Languages**
 
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](#)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](#)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](#)
 [![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)](#)
 

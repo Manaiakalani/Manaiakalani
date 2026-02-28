@@ -1,0 +1,83 @@
+name: Update Currently Building
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Update projects section
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OWNER: ${{ github.repository_owner }}
+        run: |
+          python3 << 'PYEOF'
+          import json, os, re, subprocess
+
+          owner = os.environ["OWNER"]
+
+          result = subprocess.run(
+              ["gh", "api", f"users/{owner}/repos?sort=pushed&direction=desc&per_page=10&type=owner"],
+              capture_output=True, text=True,
+          )
+          repos = json.loads(result.stdout)
+
+          # Keep non-fork, non-profile, public repos — take 3 most recently pushed
+          repos = [
+              r for r in repos
+              if not r["fork"]
+              and r["name"].lower() != owner.lower()
+              and not r["private"]
+          ][:3]
+
+          # Build replacement section
+          lines = ["<!-- CURRENTLY_BUILDING:START -->", '<div align="center">', ""]
+          for i, r in enumerate(repos):
+              name = r["name"]
+              lines.append(f'<a href="https://github.com/{owner}/{name}">')
+              lines.append(
+                  f"  <img src=\"https://github-readme-stats.vercel.app/api/pin/"
+                  f"?username={owner}&repo={name}"
+                  f"&theme=github_dark&hide_border=true&bg_color=0d1117\" />"
+              )
+              # Add spacing between side-by-side cards (first of a pair)
+              lines.append("</a>&nbsp;" if i % 2 == 0 else "</a>")
+          lines.extend(["", "</div>", "<!-- CURRENTLY_BUILDING:END -->"])
+
+          new_section = "\n".join(lines)
+
+          with open("README.md", "r") as f:
+              content = f.read()
+
+          content = re.sub(
+              r"<!-- CURRENTLY_BUILDING:START -->.*?<!-- CURRENTLY_BUILDING:END -->",
+              new_section,
+              content,
+              flags=re.DOTALL,
+          )
+
+          with open("README.md", "w") as f:
+              f.write(content)
+
+          print(f"Updated with {len(repos)} repos: {[r['name'] for r in repos]}")
+          PYEOF
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --staged --quiet || (git commit -m "chore: update currently building section" && git push)

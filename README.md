@@ -4,7 +4,8 @@
 
 [![Location](https://img.shields.io/badge/Redmond,_WA-58a6ff?style=flat&logo=googlemaps&logoColor=white)](https://manaiakalani.com)&nbsp;&nbsp;
 [![Microsoft](https://img.shields.io/badge/Microsoft_Security_(CxE)-0078D4?style=flat&logo=microsoft&logoColor=white)](https://microsoft.com/security)&nbsp;&nbsp;
-[![Pronouns](https://img.shields.io/badge/he/him-8b949e?style=flat)](https://github.com/Manaiakalani)
+[![Pronouns](https://img.shields.io/badge/he/him-8b949e?style=flat)](https://github.com/Manaiakalani)&nbsp;&nbsp;
+![Views](https://komarev.com/ghpvc/?username=manaiakalani&color=58a6ff&style=flat&label=Profile+Views)
 
 </div>
 
@@ -86,6 +87,7 @@ interests:
 [![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](#)
 [![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](#)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](#)
+[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](#)
 
 </div>
 

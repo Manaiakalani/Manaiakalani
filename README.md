@@ -44,13 +44,13 @@ interests:
     <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/x-twitter-dim-mode-dark.svg" alt="x-twitter-dim-mode" />
   </picture>
 </a>
-<a href="https://github.com/Manaiakalani/borderlands-loot-hub">
+<a href="https://github.com/Manaiakalani/CxEAmericasStepTracker">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/borderlands-loot-hub-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/borderlands-loot-hub-light.svg" />
-    <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/borderlands-loot-hub-dark.svg" alt="borderlands-loot-hub" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/CxEAmericasStepTracker-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/CxEAmericasStepTracker-light.svg" />
+    <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/CxEAmericasStepTracker-dark.svg" alt="CxEAmericasStepTracker" />
   </picture>
-</a>
+</a>&nbsp;
 
 </div>
 <!-- CURRENTLY_BUILDING:END -->

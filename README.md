@@ -31,25 +31,25 @@ interests:
 <!-- CURRENTLY_BUILDING:START -->
 <div align="center">
 
+<a href="https://github.com/Manaiakalani/Manaiakalani.com">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/Manaiakalani.com-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/Manaiakalani.com-light.svg" />
+    <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/Manaiakalani.com-dark.svg" alt="Manaiakalani.com" />
+  </picture>
+</a>&nbsp;
 <a href="https://github.com/Manaiakalani/destiny-code-finder">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/destiny-code-finder-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/destiny-code-finder-light.svg" />
     <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/destiny-code-finder-dark.svg" alt="destiny-code-finder" />
   </picture>
-</a>&nbsp;
+</a>
 <a href="https://github.com/Manaiakalani/x-twitter-dim-mode">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/x-twitter-dim-mode-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/x-twitter-dim-mode-light.svg" />
     <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/x-twitter-dim-mode-dark.svg" alt="x-twitter-dim-mode" />
-  </picture>
-</a>
-<a href="https://github.com/Manaiakalani/CxEAmericasStepTracker">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/CxEAmericasStepTracker-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/CxEAmericasStepTracker-light.svg" />
-    <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/CxEAmericasStepTracker-dark.svg" alt="CxEAmericasStepTracker" />
   </picture>
 </a>&nbsp;
 

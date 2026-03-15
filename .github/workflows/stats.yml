@@ -29,7 +29,7 @@ jobs:
           AUTO_PUSH: false
 
       - name: Push to stats branch
-        uses: crazy-max/ghaction-github-pages@v4
+        uses: crazy-max/ghaction-github-pages@v5
         with:
           target_branch: stats
           build_dir: profile-summary-card-output

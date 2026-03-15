@@ -131,7 +131,7 @@ jobs:
           PYEOF
 
       - name: Push cards to projects branch
-        uses: crazy-max/ghaction-github-pages@v4
+        uses: crazy-max/ghaction-github-pages@v5
         with:
           target_branch: projects
           build_dir: dist

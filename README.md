@@ -31,11 +31,11 @@ interests:
 <!-- CURRENTLY_BUILDING:START -->
 <div align="center">
 
-<a href="https://github.com/Manaiakalani/yeshello.lol">
+<a href="https://github.com/Manaiakalani/BlankYourGame">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/yeshello.lol-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/yeshello.lol-light.svg" />
-    <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/yeshello.lol-dark.svg" alt="yeshello.lol" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/BlankYourGame-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/BlankYourGame-light.svg" />
+    <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/BlankYourGame-dark.svg" alt="BlankYourGame" />
   </picture>
 </a>&nbsp;
 <a href="https://github.com/Manaiakalani/destiny-code-finder">

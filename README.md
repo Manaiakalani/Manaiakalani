@@ -31,25 +31,25 @@ interests:
 <!-- CURRENTLY_BUILDING:START -->
 <div align="center">
 
+<a href="https://github.com/Manaiakalani/CxEEMEAStepTracker">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/CxEEMEAStepTracker-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/CxEEMEAStepTracker-light.svg" />
+    <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/CxEEMEAStepTracker-dark.svg" alt="CxEEMEAStepTracker" />
+  </picture>
+</a>&nbsp;
 <a href="https://github.com/Manaiakalani/pixdrip">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/pixdrip-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/pixdrip-light.svg" />
     <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/pixdrip-dark.svg" alt="pixdrip" />
   </picture>
-</a>&nbsp;
+</a>
 <a href="https://github.com/Manaiakalani/world-clock">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/world-clock-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/world-clock-light.svg" />
     <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/world-clock-dark.svg" alt="world-clock" />
-  </picture>
-</a>
-<a href="https://github.com/Manaiakalani/CxEEMEAStepTracker">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/CxEEMEAStepTracker-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/CxEEMEAStepTracker-light.svg" />
-    <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/CxEEMEAStepTracker-dark.svg" alt="CxEEMEAStepTracker" />
   </picture>
 </a>&nbsp;
 

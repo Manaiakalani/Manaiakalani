@@ -2,6 +2,8 @@
 
 <img src="./assets/header.svg" />
 
+<p><em>🌺 Island roots · ☁️ Cloud ambitions · 🤙🏽 Always shipping</em></p>
+
 [![Location](https://img.shields.io/badge/Redmond,_WA-58a6ff?style=flat&logo=googlemaps&logoColor=white)](https://manaiakalani.com)&nbsp;&nbsp;
 [![Microsoft](https://img.shields.io/badge/Microsoft_Security_(CxE)-0078D4?style=flat&logo=microsoft&logoColor=white)](https://microsoft.com/security)&nbsp;&nbsp;
 [![Pronouns](https://img.shields.io/badge/he/him-8b949e?style=flat)](https://github.com/Manaiakalani)&nbsp;&nbsp;
@@ -17,6 +19,7 @@
 name: Maximilian Stein
 location: Redmond, WA 🌲
 role: Product Manager @ Microsoft Security (CxE)
+work_github: github.com/MaxSteinMS
 
 interests:
   - 🌺 Hawaiian roots, Pacific Northwest life
@@ -65,7 +68,6 @@ interests:
 **Product & Design**
 
 [![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](#)
-[![Azure DevOps](https://img.shields.io/badge/Azure_DevOps-0078D4?style=for-the-badge&logo=azuredevops&logoColor=white)](#)
 
 **Microsoft Ecosystem**
 
@@ -87,7 +89,11 @@ interests:
 [![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](#)
 [![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](#)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](#)
+
+**Infra & Tooling**
+
 [![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](#)
+[![Azure DevOps](https://img.shields.io/badge/Azure_DevOps-0078D4?style=for-the-badge&logo=azuredevops&logoColor=white)](#)
 
 </div>
 
@@ -101,12 +107,6 @@ interests:
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/stats/github_dark/3-stats.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/stats/default/3-stats.svg" />
     <img height="170" src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/stats/github_dark/3-stats.svg" alt="GitHub Stats" />
-  </picture>
-  &nbsp;
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/stats/github_dark/1-repos-per-language.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/stats/default/1-repos-per-language.svg" />
-    <img height="170" src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/stats/github_dark/1-repos-per-language.svg" alt="Top Languages" />
   </picture>
 </div>
 
@@ -132,12 +132,9 @@ interests:
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/manaiakalani)&nbsp;
 [![X](https://img.shields.io/badge/X_(Twitter)-000000?style=for-the-badge&logo=x&logoColor=white)](https://aka.ms/MaxStein)&nbsp;
-[![Work GitHub](https://img.shields.io/badge/Work_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MaxSteinMS)&nbsp;
 [![Website](https://img.shields.io/badge/Website-58a6ff?style=for-the-badge&logo=dogecoin&logoColor=white)](https://aka.ms/MaxStein)
 
 <br/>
-
-<p><em>🌺 Island roots · ☁️ Cloud ambitions · 🤙🏽 Always shipping</em></p>
 
 </div>
 

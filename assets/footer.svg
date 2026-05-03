@@ -1,11 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 854 100" width="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 854 100" width="100%" role="img" aria-label="footer">
   <defs>
     <linearGradient id="g" x1="0%" x2="100%">
       <stop offset="0%" stop-color="#0d1117"/>
       <stop offset="30%" stop-color="#161b22"/>
       <stop offset="60%" stop-color="#1a2332"/>
-      <stop offset="100%" stop-color="#58a6ff"/>
+      <stop offset="100%" stop-color="#58a6ff">
+        <animate attributeName="stop-color"
+                 values="#58a6ff;#a371f7;#2ea043;#58a6ff"
+                 dur="18s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <linearGradient id="shimmer" x1="0%" x2="100%">
+      <stop offset="0%"  stop-color="#58a6ff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0"/>
     </linearGradient>
   </defs>
-  <path d="M0,40 C200,10 450,65 854,30 V100 H0 Z" fill="url(#g)"/>
+
+  <!-- two waves, gently drifting -->
+  <path d="M0,40 C200,10 450,65 854,30 V100 H0 Z" fill="url(#g)">
+    <animate attributeName="d"
+             values="M0,40 C200,10 450,65 854,30 V100 H0 Z;
+                     M0,46 C220,30 430,50 854,38 V100 H0 Z;
+                     M0,40 C200,10 450,65 854,30 V100 H0 Z"
+             dur="10s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- thin shimmer line that sweeps across -->
+  <rect x="-300" y="38" width="300" height="1.2" fill="url(#shimmer)" opacity="0.7">
+    <animate attributeName="x" from="-300" to="854" dur="6s" begin="1s" repeatCount="indefinite"/>
+  </rect>
 </svg>

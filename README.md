@@ -14,7 +14,7 @@
 
 ```yaml
 name: Maximilian (Manaiakalani) Stein
-role: Community Strategy Lead @ Microsoft Security (CxE)
+role: Product Manager @ Microsoft Security (CxE)
 work: github.com/MaxSteinMS
 vibes: 🌺 Hawaiian roots · 🌲 PNW life · 🐕 doge · 🌮 tacos · 😂 memes
 ```

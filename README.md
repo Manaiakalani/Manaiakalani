@@ -54,7 +54,11 @@ vibes: 🌺 Hawaiian roots · 🌲 PNW life · 🐕 doge · 🌮 tacos · 😂 m
 <div align="center">
 
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=ts,js,py,react,nextjs,vite,tailwind,figma,docker,azure,github,md&theme=dark" alt="Tech stack: TypeScript, JavaScript, Python, React, Next.js, Vite, Tailwind, Figma, Docker, Azure, GitHub, Markdown" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts,js,py,react,nextjs,vite,tailwind,figma,docker,azure,github,md&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=ts,js,py,react,nextjs,vite,tailwind,figma,docker,azure,github,md&theme=light" />
+    <img src="https://skillicons.dev/icons?i=ts,js,py,react,nextjs,vite,tailwind,figma,docker,azure,github,md&theme=dark" alt="Tech stack: TypeScript, JavaScript, Python, React, Next.js, Vite, Tailwind, Figma, Docker, Azure, GitHub, Markdown" />
+  </picture>
 </a>
 
 </div>
@@ -68,6 +72,11 @@ vibes: 🌺 Hawaiian roots · 🌲 PNW life · 🐕 doge · 🌮 tacos · 😂 m
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/stats/github_dark/3-stats.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/stats/default/3-stats.svg" />
     <img height="170" src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/stats/github_dark/3-stats.svg" alt="GitHub Stats" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/stats/github_dark/1-repos-per-language.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/stats/default/1-repos-per-language.svg" />
+    <img height="170" src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/stats/github_dark/1-repos-per-language.svg" alt="Top Languages by Repo" />
   </picture>
 </div>
 
@@ -85,10 +94,10 @@ vibes: 🌺 Hawaiian roots · 🌲 PNW life · 🐕 doge · 🌮 tacos · 😂 m
 
 ### 📬 &nbsp;Connect
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/manaiakalani)
-[![Bluesky](https://img.shields.io/badge/Bluesky-0085FF?style=flat&logo=bluesky&logoColor=white)](https://bsky.app/profile/did:plc:kurxpumma6piictgpr424wcj)
-[![X](https://img.shields.io/badge/X-000000?style=flat&logo=x&logoColor=white)](https://x.com/MaxSteinMS)
-[![Web](https://img.shields.io/badge/manaiakalani.com-58a6ff?style=flat&logoColor=white)](https://manaiakalani.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/manaiakalani)
+[![Bluesky](https://img.shields.io/badge/Bluesky-0085FF?style=for-the-badge&logo=bluesky&logoColor=white)](https://bsky.app/profile/did:plc:kurxpumma6piictgpr424wcj)
+[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/MaxSteinMS)
+[![Web](https://img.shields.io/badge/manaiakalani.com-58a6ff?style=for-the-badge&logoColor=white)](https://manaiakalani.com)
 
 </div>
 

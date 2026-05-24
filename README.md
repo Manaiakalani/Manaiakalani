@@ -13,8 +13,8 @@
 ### 🤙🏽 &nbsp;About
 
 ```yaml
-name: Maximilian Stein
-role: Product Manager @ Microsoft Security (CxE)
+name: Maximilian (Manaiakalani) Stein
+role: Community Strategy Lead @ Microsoft Security (CxE)
 work: github.com/MaxSteinMS
 vibes: 🌺 Hawaiian roots · 🌲 PNW life · 🐕 doge · 🌮 tacos · 😂 memes
 ```
@@ -54,7 +54,7 @@ vibes: 🌺 Hawaiian roots · 🌲 PNW life · 🐕 doge · 🌮 tacos · 😂 m
 <div align="center">
 
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=ts,js,py,react,nextjs,vite,tailwind,figma,docker,azure,github,md&theme=dark" alt="stack" />
+  <img src="https://skillicons.dev/icons?i=ts,js,py,react,nextjs,vite,tailwind,figma,docker,azure,github,md&theme=dark" alt="Tech stack: TypeScript, JavaScript, Python, React, Next.js, Vite, Tailwind, Figma, Docker, Azure, GitHub, Markdown" />
 </a>
 
 </div>
@@ -86,7 +86,8 @@ vibes: 🌺 Hawaiian roots · 🌲 PNW life · 🐕 doge · 🌮 tacos · 😂 m
 ### 📬 &nbsp;Connect
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/manaiakalani)
-[![X](https://img.shields.io/badge/X-000000?style=flat&logo=x&logoColor=white)](https://aka.ms/MaxStein)
+[![Bluesky](https://img.shields.io/badge/Bluesky-0085FF?style=flat&logo=bluesky&logoColor=white)](https://bsky.app/profile/did:plc:kurxpumma6piictgpr424wcj)
+[![X](https://img.shields.io/badge/X-000000?style=flat&logo=x&logoColor=white)](https://x.com/MaxSteinMS)
 [![Web](https://img.shields.io/badge/manaiakalani.com-58a6ff?style=flat&logoColor=white)](https://manaiakalani.com)
 
 </div>

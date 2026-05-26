@@ -31,18 +31,18 @@ vibes: 🌺 Hawaiian roots · 🌲 PNW life · 🐕 doge · 🌮 tacos · 😂 m
     <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/arrakis-command-nexus-dark.svg" alt="arrakis-command-nexus" />
   </picture>
 </a>&nbsp;
+<a href="https://github.com/Manaiakalani/greenthumb-assistant">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/greenthumb-assistant-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/greenthumb-assistant-light.svg" />
+    <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/greenthumb-assistant-dark.svg" alt="greenthumb-assistant" />
+  </picture>
+</a>
 <a href="https://github.com/Manaiakalani/Manaiakalani.com">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/Manaiakalani.com-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/Manaiakalani.com-light.svg" />
     <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/Manaiakalani.com-dark.svg" alt="Manaiakalani.com" />
-  </picture>
-</a>
-<a href="https://github.com/Manaiakalani/TheAdventuresOfAnnaAndMax">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/TheAdventuresOfAnnaAndMax-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/TheAdventuresOfAnnaAndMax-light.svg" />
-    <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/TheAdventuresOfAnnaAndMax-dark.svg" alt="TheAdventuresOfAnnaAndMax" />
   </picture>
 </a>&nbsp;
 

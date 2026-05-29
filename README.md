@@ -24,25 +24,25 @@ vibes: 🌺 Hawaiian roots · 🌲 PNW life · 🐕 doge · 🌮 tacos · 😂 m
 <!-- CURRENTLY_BUILDING:START -->
 <div align="center">
 
+<a href="https://github.com/Manaiakalani/CxEEMEAStepTracker">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/CxEEMEAStepTracker-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/CxEEMEAStepTracker-light.svg" />
+    <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/CxEEMEAStepTracker-dark.svg" alt="CxEEMEAStepTracker" />
+  </picture>
+</a>&nbsp;
 <a href="https://github.com/Manaiakalani/arrakis-command-nexus">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/arrakis-command-nexus-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/arrakis-command-nexus-light.svg" />
     <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/arrakis-command-nexus-dark.svg" alt="arrakis-command-nexus" />
   </picture>
-</a>&nbsp;
+</a>
 <a href="https://github.com/Manaiakalani/destiny-code-finder">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/destiny-code-finder-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/destiny-code-finder-light.svg" />
     <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/destiny-code-finder-dark.svg" alt="destiny-code-finder" />
-  </picture>
-</a>
-<a href="https://github.com/Manaiakalani/yeshello.lol">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/yeshello.lol-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/yeshello.lol-light.svg" />
-    <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/yeshello.lol-dark.svg" alt="yeshello.lol" />
   </picture>
 </a>&nbsp;
 

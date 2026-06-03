@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 854 200" width="100%" role="img" aria-label="Maximilian (Manaiakalani) Stein — Product Manager • Microsoft Security">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 854 200" width="100%" role="img" aria-label="Maximilian (Manaiakalani) Stein — Product Manager • Microsoft">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%"   stop-color="#0d1117">
@@ -47,17 +47,11 @@
     <animate attributeName="x2" from="427" to="507" dur="0.9s" begin="0.7s" fill="freeze"/>
   </line>
 
-  <!-- pulsing accent dot at end of rule -->
-  <circle cx="507" cy="115" r="0" fill="#58a6ff">
-    <animate attributeName="r" from="0" to="3" dur="0.4s" begin="1.6s" fill="freeze"/>
-    <animate attributeName="opacity" values="1;0.35;1" dur="2.4s" begin="1.6s" repeatCount="indefinite"/>
-  </circle>
-
   <text x="427" y="146" text-anchor="middle" fill="#c9d1d9"
-        font-size="14" font-weight="500" letter-spacing="2"
+        font-size="16" font-weight="500" letter-spacing="1.5"
         font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif"
         opacity="0">
-    PRODUCT MANAGER  •  MICROSOFT SECURITY
+    PRODUCT MANAGER  •  MICROSOFT
     <animate attributeName="opacity" from="0" to="1" dur="1.0s" begin="1.0s" fill="freeze"/>
   </text>
 </svg>

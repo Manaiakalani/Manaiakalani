@@ -2,9 +2,9 @@
 
 <img src="./assets/header.svg" />
 
-<sub><em>🌺 Island roots · ☁️ Cloud ambitions · 🤙🏽 Always shipping</em></sub>
+<em>🌺 Island roots · ☁️ Cloud ambitions · 🤙🏽 Always shipping</em>
 
-<sub>Redmond, WA · Microsoft Security (CxE) · he/him · ![Views](https://komarev.com/ghpvc/?username=manaiakalani&color=58a6ff&style=flat&label=views)</sub>
+Redmond, WA · Microsoft · he/him · ![Views](https://komarev.com/ghpvc/?username=manaiakalani&color=58a6ff&style=flat&label=views)
 
 </div>
 
@@ -14,7 +14,7 @@
 
 ```yaml
 name: Maximilian (Manaiakalani) Stein
-role: Product Manager @ Microsoft Security (CxE)
+role: Product Manager @ Microsoft
 work: github.com/MaxSteinMS
 vibes: 🌺 Hawaiian roots · 🌲 PNW life · 🐕 doge · 🌮 tacos · 😂 memes
 ```

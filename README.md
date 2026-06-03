@@ -4,7 +4,9 @@
 
 <em>🌺 Island roots · ☁️ Cloud ambitions · 🤙🏽 Always shipping</em>
 
-Redmond, WA · Microsoft · he/him · ![Views](https://komarev.com/ghpvc/?username=manaiakalani&color=58a6ff&style=flat&label=views)
+Redmond, WA · Microsoft · he/him
+
+![Views](https://komarev.com/ghpvc/?username=manaiakalani&color=58a6ff&style=flat&label=views)
 
 </div>
 
@@ -92,7 +94,7 @@ vibes: 🌺 Hawaiian roots · 🌲 PNW life · 🐕 doge · 🌮 tacos · 😂 m
 
 <div align="center">
 
-### 📬 &nbsp;Connect
+### 📬 &nbsp;Let's connect
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/manaiakalani)
 [![Bluesky](https://img.shields.io/badge/Bluesky-0085FF?style=for-the-badge&logo=bluesky&logoColor=white)](https://bsky.app/profile/did:plc:kurxpumma6piictgpr424wcj)

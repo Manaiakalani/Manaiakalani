@@ -2,9 +2,11 @@
 
 <img src="./assets/header.svg" />
 
-<sub><em>🌺 Island roots · ☁️ Cloud ambitions · 🤙🏽 Always shipping</em></sub>
+<em>🌺 Island roots · ☁️ Cloud ambitions · 🤙🏽 Always shipping</em>
 
-<sub>Redmond, WA · Microsoft Security (CxE) · he/him · ![Views](https://komarev.com/ghpvc/?username=manaiakalani&color=58a6ff&style=flat&label=views)</sub>
+Redmond, WA · Microsoft · he/him
+
+![Views](https://komarev.com/ghpvc/?username=manaiakalani&color=58a6ff&style=flat&label=views)
 
 </div>
 
@@ -14,7 +16,7 @@
 
 ```yaml
 name: Maximilian (Manaiakalani) Stein
-role: Product Manager @ Microsoft Security (CxE)
+role: Product Manager @ Microsoft
 work: github.com/MaxSteinMS
 vibes: 🌺 Hawaiian roots · 🌲 PNW life · 🐕 doge · 🌮 tacos · 😂 memes
 ```
@@ -24,18 +26,18 @@ vibes: 🌺 Hawaiian roots · 🌲 PNW life · 🐕 doge · 🌮 tacos · 😂 m
 <!-- CURRENTLY_BUILDING:START -->
 <div align="center">
 
-<a href="https://github.com/Manaiakalani/borderlands-loot-hub">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/borderlands-loot-hub-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/borderlands-loot-hub-light.svg" />
-    <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/borderlands-loot-hub-dark.svg" alt="borderlands-loot-hub" />
-  </picture>
-</a>&nbsp;
 <a href="https://github.com/Manaiakalani/arrakis-command-nexus">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/arrakis-command-nexus-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/arrakis-command-nexus-light.svg" />
     <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/arrakis-command-nexus-dark.svg" alt="arrakis-command-nexus" />
+  </picture>
+</a>&nbsp;
+<a href="https://github.com/Manaiakalani/borderlands-loot-hub">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/borderlands-loot-hub-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/borderlands-loot-hub-light.svg" />
+    <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/borderlands-loot-hub-dark.svg" alt="borderlands-loot-hub" />
   </picture>
 </a>
 <a href="https://github.com/Manaiakalani/CxEAmericasStepTracker">
@@ -48,20 +50,6 @@ vibes: 🌺 Hawaiian roots · 🌲 PNW life · 🐕 doge · 🌮 tacos · 😂 m
 
 </div>
 <!-- CURRENTLY_BUILDING:END -->
-
-### 🛠️ &nbsp;Stack
-
-<div align="center">
-
-<a href="https://skillicons.dev">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts,js,py,react,nextjs,vite,tailwind,figma,docker,azure,github,md&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=ts,js,py,react,nextjs,vite,tailwind,figma,docker,azure,github,md&theme=light" />
-    <img src="https://skillicons.dev/icons?i=ts,js,py,react,nextjs,vite,tailwind,figma,docker,azure,github,md&theme=dark" alt="Tech stack: TypeScript, JavaScript, Python, React, Next.js, Vite, Tailwind, Figma, Docker, Azure, GitHub, Markdown" />
-  </picture>
-</a>
-
-</div>
 
 <img src="./assets/wave.svg" width="100%" />
 
@@ -92,7 +80,7 @@ vibes: 🌺 Hawaiian roots · 🌲 PNW life · 🐕 doge · 🌮 tacos · 😂 m
 
 <div align="center">
 
-### 📬 &nbsp;Connect
+### 📬 &nbsp;Let's connect
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/manaiakalani)
 [![Bluesky](https://img.shields.io/badge/Bluesky-0085FF?style=for-the-badge&logo=bluesky&logoColor=white)](https://bsky.app/profile/did:plc:kurxpumma6piictgpr424wcj)

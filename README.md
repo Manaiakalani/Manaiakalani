@@ -26,6 +26,20 @@ vibes: 🌺 Hawaiian roots · 🌲 PNW life · 🐕 doge · 🌮 tacos · 😂 m
 <!-- CURRENTLY_BUILDING:START -->
 <div align="center">
 
+<a href="https://github.com/Manaiakalani/DuneBox">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/DuneBox-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/DuneBox-light.svg" />
+    <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/DuneBox-dark.svg" alt="DuneBox" />
+  </picture>
+</a>&nbsp;
+<a href="https://github.com/Manaiakalani/arrakis-command-nexus">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/arrakis-command-nexus-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/arrakis-command-nexus-light.svg" />
+    <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/arrakis-command-nexus-dark.svg" alt="arrakis-command-nexus" />
+  </picture>
+</a>
 <a href="https://github.com/Manaiakalani/borderlands-loot-hub">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/borderlands-loot-hub-dark.svg" />
@@ -40,32 +54,18 @@ vibes: 🌺 Hawaiian roots · 🌲 PNW life · 🐕 doge · 🌮 tacos · 😂 m
     <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/world-clock-dark.svg" alt="world-clock" />
   </picture>
 </a>
-<a href="https://github.com/Manaiakalani/arrakis-command-nexus">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/arrakis-command-nexus-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/arrakis-command-nexus-light.svg" />
-    <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/arrakis-command-nexus-dark.svg" alt="arrakis-command-nexus" />
-  </picture>
-</a>&nbsp;
 <a href="https://github.com/Manaiakalani/fumasignal-mcp">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/fumasignal-mcp-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/fumasignal-mcp-light.svg" />
     <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/fumasignal-mcp-dark.svg" alt="fumasignal-mcp" />
   </picture>
-</a>
+</a>&nbsp;
 <a href="https://github.com/Manaiakalani/mascot-mate">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/mascot-mate-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/mascot-mate-light.svg" />
     <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/mascot-mate-dark.svg" alt="mascot-mate" />
-  </picture>
-</a>&nbsp;
-<a href="https://github.com/Manaiakalani/PDFTableExtractor">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/PDFTableExtractor-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/PDFTableExtractor-light.svg" />
-    <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/PDFTableExtractor-dark.svg" alt="PDFTableExtractor" />
   </picture>
 </a>
 

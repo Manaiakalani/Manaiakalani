@@ -26,11 +26,11 @@ vibes: 🌺 Hawaiian roots · 🌲 PNW life · 🐕 doge · 🌮 tacos · 😂 m
 <!-- CURRENTLY_BUILDING:START -->
 <div align="center">
 
-<a href="https://github.com/Manaiakalani/PDFTableExtractor">
+<a href="https://github.com/Manaiakalani/borderlands-loot-hub">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/PDFTableExtractor-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/PDFTableExtractor-light.svg" />
-    <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/PDFTableExtractor-dark.svg" alt="PDFTableExtractor" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/borderlands-loot-hub-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/borderlands-loot-hub-light.svg" />
+    <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/borderlands-loot-hub-dark.svg" alt="borderlands-loot-hub" />
   </picture>
 </a>&nbsp;
 <a href="https://github.com/Manaiakalani/destiny-code-finder">
@@ -40,11 +40,11 @@ vibes: 🌺 Hawaiian roots · 🌲 PNW life · 🐕 doge · 🌮 tacos · 😂 m
     <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/destiny-code-finder-dark.svg" alt="destiny-code-finder" />
   </picture>
 </a>
-<a href="https://github.com/Manaiakalani/borderlands-loot-hub">
+<a href="https://github.com/Manaiakalani/PDFTableExtractor">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/borderlands-loot-hub-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/borderlands-loot-hub-light.svg" />
-    <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/borderlands-loot-hub-dark.svg" alt="borderlands-loot-hub" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/PDFTableExtractor-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/PDFTableExtractor-light.svg" />
+    <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/PDFTableExtractor-dark.svg" alt="PDFTableExtractor" />
   </picture>
 </a>&nbsp;
 <a href="https://github.com/Manaiakalani/arrakis-command-nexus">

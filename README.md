@@ -26,25 +26,11 @@ vibes: 🌺 Hawaiian roots · 🌲 PNW life · 🐕 doge · 🌮 tacos · 😂 m
 <!-- CURRENTLY_BUILDING:START -->
 <div align="center">
 
-<a href="https://github.com/Manaiakalani/world-clock">
+<a href="https://github.com/Manaiakalani/yeshello.lol">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/world-clock-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/world-clock-light.svg" />
-    <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/world-clock-dark.svg" alt="world-clock" />
-  </picture>
-</a>&nbsp;
-<a href="https://github.com/Manaiakalani/fumasignal-mcp">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/fumasignal-mcp-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/fumasignal-mcp-light.svg" />
-    <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/fumasignal-mcp-dark.svg" alt="fumasignal-mcp" />
-  </picture>
-</a>
-<a href="https://github.com/Manaiakalani/borderlands-loot-hub">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/borderlands-loot-hub-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/borderlands-loot-hub-light.svg" />
-    <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/borderlands-loot-hub-dark.svg" alt="borderlands-loot-hub" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/yeshello.lol-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/yeshello.lol-light.svg" />
+    <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/yeshello.lol-dark.svg" alt="yeshello.lol" />
   </picture>
 </a>&nbsp;
 <a href="https://github.com/Manaiakalani/Manaiakalani.com">
@@ -54,6 +40,20 @@ vibes: 🌺 Hawaiian roots · 🌲 PNW life · 🐕 doge · 🌮 tacos · 😂 m
     <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/Manaiakalani.com-dark.svg" alt="Manaiakalani.com" />
   </picture>
 </a>
+<a href="https://github.com/Manaiakalani/borderlands-loot-hub">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/borderlands-loot-hub-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/borderlands-loot-hub-light.svg" />
+    <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/borderlands-loot-hub-dark.svg" alt="borderlands-loot-hub" />
+  </picture>
+</a>&nbsp;
+<a href="https://github.com/Manaiakalani/world-clock">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/world-clock-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/world-clock-light.svg" />
+    <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/world-clock-dark.svg" alt="world-clock" />
+  </picture>
+</a>
 <a href="https://github.com/Manaiakalani/destiny-code-finder">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/destiny-code-finder-dark.svg" />
@@ -61,11 +61,11 @@ vibes: 🌺 Hawaiian roots · 🌲 PNW life · 🐕 doge · 🌮 tacos · 😂 m
     <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/destiny-code-finder-dark.svg" alt="destiny-code-finder" />
   </picture>
 </a>&nbsp;
-<a href="https://github.com/Manaiakalani/auracast">
+<a href="https://github.com/Manaiakalani/fumasignal-mcp">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/auracast-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/auracast-light.svg" />
-    <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/auracast-dark.svg" alt="auracast" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/fumasignal-mcp-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/fumasignal-mcp-light.svg" />
+    <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/fumasignal-mcp-dark.svg" alt="fumasignal-mcp" />
   </picture>
 </a>
 

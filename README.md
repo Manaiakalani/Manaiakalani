@@ -26,18 +26,18 @@ vibes: 🌺 Hawaiian roots · 🌲 PNW life · 🐕 doge · 🌮 tacos · 😂 m
 <!-- CURRENTLY_BUILDING:START -->
 <div align="center">
 
-<a href="https://github.com/Manaiakalani/PDFTableExtractor">
+<a href="https://github.com/Manaiakalani/cards-against-ai">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/PDFTableExtractor-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/PDFTableExtractor-light.svg" />
-    <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/PDFTableExtractor-dark.svg" alt="PDFTableExtractor" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/cards-against-ai-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/cards-against-ai-light.svg" />
+    <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/cards-against-ai-dark.svg" alt="cards-against-ai" />
   </picture>
 </a>&nbsp;
-<a href="https://github.com/Manaiakalani/destiny-code-finder">
+<a href="https://github.com/Manaiakalani/manaiakalani.github.io">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/destiny-code-finder-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/destiny-code-finder-light.svg" />
-    <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/destiny-code-finder-dark.svg" alt="destiny-code-finder" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/manaiakalani.github.io-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/manaiakalani.github.io-light.svg" />
+    <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/manaiakalani.github.io-dark.svg" alt="manaiakalani.github.io" />
   </picture>
 </a>
 <a href="https://github.com/Manaiakalani/yeshello.lol">
@@ -47,25 +47,25 @@ vibes: 🌺 Hawaiian roots · 🌲 PNW life · 🐕 doge · 🌮 tacos · 😂 m
     <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/yeshello.lol-dark.svg" alt="yeshello.lol" />
   </picture>
 </a>&nbsp;
+<a href="https://github.com/Manaiakalani/PDFTableExtractor">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/PDFTableExtractor-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/PDFTableExtractor-light.svg" />
+    <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/PDFTableExtractor-dark.svg" alt="PDFTableExtractor" />
+  </picture>
+</a>
+<a href="https://github.com/Manaiakalani/destiny-code-finder">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/destiny-code-finder-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/destiny-code-finder-light.svg" />
+    <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/destiny-code-finder-dark.svg" alt="destiny-code-finder" />
+  </picture>
+</a>&nbsp;
 <a href="https://github.com/Manaiakalani/auracast">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/auracast-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/auracast-light.svg" />
     <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/auracast-dark.svg" alt="auracast" />
-  </picture>
-</a>
-<a href="https://github.com/Manaiakalani/Manaiakalani.com">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/Manaiakalani.com-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/Manaiakalani.com-light.svg" />
-    <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/Manaiakalani.com-dark.svg" alt="Manaiakalani.com" />
-  </picture>
-</a>&nbsp;
-<a href="https://github.com/Manaiakalani/borderlands-loot-hub">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/borderlands-loot-hub-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/borderlands-loot-hub-light.svg" />
-    <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/borderlands-loot-hub-dark.svg" alt="borderlands-loot-hub" />
   </picture>
 </a>
 

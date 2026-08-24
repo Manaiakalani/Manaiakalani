@@ -33,39 +33,39 @@ vibes: 🌺 Hawaiian roots · 🌲 PNW life · 🐕 doge · 🌮 tacos · 😂 m
     <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/arrakis-command-nexus-dark.svg" alt="arrakis-command-nexus" />
   </picture>
 </a>&nbsp;
+<a href="https://github.com/Manaiakalani/world-clock">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/world-clock-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/world-clock-light.svg" />
+    <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/world-clock-dark.svg" alt="world-clock" />
+  </picture>
+</a>
 <a href="https://github.com/Manaiakalani/TheAdventuresOfAnnaAndMax">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/TheAdventuresOfAnnaAndMax-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/TheAdventuresOfAnnaAndMax-light.svg" />
     <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/TheAdventuresOfAnnaAndMax-dark.svg" alt="TheAdventuresOfAnnaAndMax" />
   </picture>
-</a>
+</a>&nbsp;
 <a href="https://github.com/Manaiakalani/yeshello.lol">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/yeshello.lol-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/yeshello.lol-light.svg" />
     <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/yeshello.lol-dark.svg" alt="yeshello.lol" />
   </picture>
-</a>&nbsp;
+</a>
 <a href="https://github.com/Manaiakalani/fumasignal-mcp">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/fumasignal-mcp-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/fumasignal-mcp-light.svg" />
     <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/fumasignal-mcp-dark.svg" alt="fumasignal-mcp" />
   </picture>
-</a>
+</a>&nbsp;
 <a href="https://github.com/Manaiakalani/cards-against-ai">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/cards-against-ai-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/cards-against-ai-light.svg" />
     <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/cards-against-ai-dark.svg" alt="cards-against-ai" />
-  </picture>
-</a>&nbsp;
-<a href="https://github.com/Manaiakalani/world-clock">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/world-clock-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/world-clock-light.svg" />
-    <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/world-clock-dark.svg" alt="world-clock" />
   </picture>
 </a>
 

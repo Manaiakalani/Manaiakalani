@@ -63,7 +63,6 @@ THEMES = {
         "rule": "#21262d",
         "accent_a": "#1f6feb",
         "accent_b": "#a371f7",
-        "dots": "#58a6ff",
     },
     "light": {
         "bg": "#ffffff",
@@ -74,7 +73,6 @@ THEMES = {
         "rule": "#d0d7de",
         "accent_a": "#0969da",
         "accent_b": "#8250df",
-        "dots": "#0969da",
     },
 }
 
@@ -204,7 +202,6 @@ def generate_card(repo: dict, theme_name: str, idx: int) -> str:
     rule_y = 76 + len(desc_lines) * 18 + 14
     meta_y = rule_y + 22
     height = meta_y + 18
-    pid = f"dots_{theme_name}_{idx}"
     gid = f"accent_{theme_name}_{idx}"
     clip = f"clip_{theme_name}_{idx}"
 
@@ -219,16 +216,12 @@ def generate_card(repo: dict, theme_name: str, idx: int) -> str:
         <animate attributeName="stop-color" values="{t["accent_b"]};{t["accent_a"]};{t["accent_b"]}" dur="6s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
-    <pattern id="{pid}" width="16" height="16" patternUnits="userSpaceOnUse">
-      <circle cx="1" cy="1" r="0.7" fill="{t["dots"]}"/>
-    </pattern>
   </defs>
   <style>
 {CARD_FONT_CSS}
   </style>
   <g clip-path="url(#{clip})">
   <rect width="400" height="{height}" rx="12" fill="{t["bg"]}"/>
-  <rect width="400" height="{height}" rx="12" fill="url(#{pid})" opacity="0.12"/>
   <rect width="400" height="3" fill="url(#{gid})"/>
   </g>
   <rect width="400" height="{height}" rx="12" fill="none" stroke="{t["border"]}" stroke-width="1"/>

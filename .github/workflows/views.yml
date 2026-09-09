@@ -1,0 +1,43 @@
+name: Update Views Badge
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+    paths:
+      - ".github/workflows/views.yml"
+      - ".github/scripts/update_views.py"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: views
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Generate views badge
+        env:
+          GH_TOKEN: ${{ secrets.PROFILE_TOKEN || secrets.GITHUB_TOKEN }}
+          OWNER: ${{ github.repository_owner }}
+          REPO: ${{ github.event.repository.name }}
+        run: python3 .github/scripts/update_views.py
+
+      - name: Push to views branch
+        uses: crazy-max/ghaction-github-pages@v5
+        with:
+          target_branch: views
+          build_dir: dist-views
+          keep_history: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

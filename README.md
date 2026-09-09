@@ -6,7 +6,11 @@
 
 Redmond, WA · Microsoft · he/him
 
-![Views](https://komarev.com/ghpvc/?username=manaiakalani&color=58a6ff&style=flat&label=views)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/views/views-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/views/views-light.svg" />
+  <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/views/views-dark.svg" alt="profile views" />
+</picture>
 
 </div>
 

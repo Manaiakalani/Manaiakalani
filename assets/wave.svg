@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 854 24" width="100%" role="img" aria-label="divider">
+  <defs>
+    <linearGradient id="w" x1="0%" x2="100%">
+      <stop offset="0%"   stop-color="#58a6ff" stop-opacity="0"/>
+      <stop offset="50%"  stop-color="#58a6ff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <path d="M0,12 Q53,2 107,12 T213,12 T320,12 T427,12 T533,12 T640,12 T747,12 T854,12"
+        fill="none" stroke="url(#w)" stroke-width="1.4">
+    <animate attributeName="d"
+             values="M0,12 Q53,2 107,12 T213,12 T320,12 T427,12 T533,12 T640,12 T747,12 T854,12;
+                     M0,12 Q53,22 107,12 T213,12 T320,12 T427,12 T533,12 T640,12 T747,12 T854,12;
+                     M0,12 Q53,2 107,12 T213,12 T320,12 T427,12 T533,12 T640,12 T747,12 T854,12"
+             dur="6s" repeatCount="indefinite"/>
+  </path>
+</svg>

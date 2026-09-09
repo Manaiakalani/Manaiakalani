@@ -1,0 +1,49 @@
+name: Update Currently Building
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+    paths:
+      - ".github/workflows/projects.yml"
+      - ".github/scripts/update_currently_building.py"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: currently-building
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Generate project cards and update README
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OWNER: ${{ github.repository_owner }}
+        run: python3 .github/scripts/update_currently_building.py
+
+      - name: Commit README changes
+        run: |
+          git config user.name "Manaiakalani"
+          git config user.email "1502119+Manaiakalani@users.noreply.github.com"
+          git add README.md
+          git diff --staged --quiet || (git commit --author="Manaiakalani <1502119+Manaiakalani@users.noreply.github.com>" -m "chore: update currently building section [skip ci]" && git push)
+
+      - name: Push cards to projects branch
+        uses: crazy-max/ghaction-github-pages@v5
+        with:
+          target_branch: projects
+          build_dir: dist
+          keep_history: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

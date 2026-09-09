@@ -1,0 +1,8 @@
+Subset WOFF2 files embedded in the profile SVGs so custom type renders
+inside GitHub README <img> tags (external font URLs are blocked there).
+
+- Doto (Fontworks) — SIL Open Font License 1.1
+- Space Grotesk (Florian Karsten) — SIL Open Font License 1.1
+- Space Mono (Colophon Foundry) — SIL Open Font License 1.1
+
+Source: https://fonts.google.com

@@ -22,6 +22,7 @@ from pathlib import Path
 from fonts import font_face_css
 
 MAX_CARDS = 6
+DESC_MAX_LINES = 2
 ACTIVITY_WINDOW_DAYS = 30
 DIST_DIR = Path(os.environ.get("DIST_DIR", "dist"))
 README_PATH = Path(os.environ.get("README_PATH", "README.md"))
@@ -230,7 +231,7 @@ def format_count(n: int) -> str:
     return str(n)
 
 
-def wrap_description(desc: str, width: int = 48, max_lines: int = 2) -> list[str]:
+def wrap_description(desc: str, width: int = 48, max_lines: int = DESC_MAX_LINES) -> list[str]:
     desc = " ".join((desc or "").split()) or "No description"
     lines = textwrap.wrap(desc, width=width, break_on_hyphens=False) or ["No description"]
     if len(lines) > max_lines:
@@ -272,7 +273,9 @@ def generate_card(repo: dict, theme_name: str, idx: int) -> str:
         for i, line in enumerate(desc_lines)
     )
 
-    rule_y = 76 + len(desc_lines) * 18 + 14
+    # Fixed geometry (always reserve 2 description lines) so every card in the
+    # grid is the same height regardless of description length.
+    rule_y = 76 + DESC_MAX_LINES * 18 + 14
     meta_y = rule_y + 22
     height = meta_y + 18
     gid = f"accent_{theme_name}_{idx}"

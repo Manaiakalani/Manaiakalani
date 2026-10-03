@@ -34,10 +34,9 @@ Redmond, WA · Microsoft · he/him
 ```yaml
 name: Maximilian (Manaiakalani) Stein
 role: Product Manager @ Microsoft
+work: github.com/MaxSteinMS
 vibes: 🌺 Hawaiian roots · 🌲 PNW life · 🐕 doge · 🌮 tacos · 😂 memes
 ```
-
-Personal projects live here. Work-account commits are under [**@MaxSteinMS**](https://github.com/MaxSteinMS).
 
 ### 🔨 &nbsp;Currently Building
 

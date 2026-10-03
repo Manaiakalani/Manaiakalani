@@ -9,7 +9,6 @@ Everything below the fold is generated; only `README.md` prose and `assets/` are
 | ---------- | -------------------------- | ----------------------------------------------- |
 | `master`   | you + `projects.yml`       | README, scripts, workflows, static assets       |
 | `projects` | `projects.yml`             | `<repo>-{dark,light}.svg` cards                 |
-| `views`    | `views.yml`                | `views-{dark,light}.svg` badge + `count.json`   |
 | `stats`    | `stats.yml`                | github-profile-summary-cards output             |
 | `output`   | `snake.yml`                | contribution snake SVGs                         |
 
@@ -18,21 +17,22 @@ The README references them via `raw.githubusercontent.com/manaiakalani/manaiakal
 
 ## Workflows
 
-All four run on `0 */12 * * *`, on `workflow_dispatch`, and on pushes that touch their own
-inputs. Third-party actions are pinned by commit SHA; Dependabot bumps them weekly.
+All three run on `0 */12 * * *`, on `workflow_dispatch`, and on pushes that touch their own
+inputs. Third-party actions are pinned by commit SHA; Dependabot bumps them weekly. Only
+`GITHUB_TOKEN` is used; no secrets are required.
 
 | Workflow       | What it does                                                                                               |
 | -------------- | ---------------------------------------------------------------------------------------------------------- |
 | `projects.yml` | Runs `update_currently_building.py`, commits the README block, pushes cards to `projects`.                  |
-| `views.yml`    | Runs `update_views.py` using `PROFILE_TOKEN` (traffic API needs a PAT). Fails loudly if traffic is 403.     |
 | `stats.yml`    | Computes the current `America/Los_Angeles` UTC offset (DST-aware), runs summary-cards, pushes to `stats`.   |
 | `snake.yml`    | Platane/snk → `output`.                                                                                     |
 
-### Secrets
+### Views counter
 
-- `PROFILE_TOKEN` — classic PAT with `repo` scope (or fine-grained with *Administration: read*
-  on this repo). Required for `/traffic/views`. If it expires, `views.yml` goes red instead of
-  silently freezing the counter at the seed value.
+The `VIEWS` badge in the README hero is [Komarev](https://github.com/antonkomarev/github-profile-views-counter),
+which increments whenever the profile page renders the image. A self-hosted counter built on
+the GitHub traffic API was tried and removed: that API only counts visits to this *repository*
+page, not the *profile* page, so it sat frozen while the profile was being viewed.
 
 ## Scripts (`.github/scripts/`)
 
@@ -41,7 +41,6 @@ inputs. Third-party actions are pinned by commit SHA; Dependabot bumps them week
 | `fonts.py`                     | Emits `@font-face` CSS with base64 woff2. Subsets to the glyphs actually used when given `text=`. |
 | `build_banners.py`             | Writes `assets/{header,footer,wave}[-light].svg`. Run after editing copy or colors.      |
 | `update_currently_building.py` | Picks repos, renders cards to `dist/`, rewrites the README between the `CURRENTLY_BUILDING` markers. |
-| `update_views.py`              | Merges 14-day traffic into `count.json`, renders the badge to `dist-views/`.             |
 
 ### Running locally
 
@@ -51,10 +50,9 @@ gh auth login                                                # scripts shell out
 
 python3 .github/scripts/build_banners.py                     # regenerates assets/*.svg (commit these)
 OWNER=Manaiakalani python3 .github/scripts/update_currently_building.py
-OWNER=Manaiakalani REPO=Manaiakalani VIEWS_STRICT=0 python3 .github/scripts/update_views.py
 ```
 
-`dist/`, `dist-views/`, and `profile-summary-card-output/` are gitignored; they're only pushed
+`dist/` and `profile-summary-card-output/` are gitignored; they're only pushed
 to their branches by CI. Without `fonttools` the scripts still run, embedding the full
 pre-subset fonts (~30 KB per SVG instead of ~3 KB).
 

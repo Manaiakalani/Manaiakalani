@@ -10,11 +10,7 @@
 
 Redmond, WA · Microsoft · he/him
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/views/views-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/views/views-light.svg" />
-  <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/views/views-dark.svg" alt="profile views" />
-</picture>
+<img src="https://komarev.com/ghpvc/?username=manaiakalani&label=VIEWS&style=for-the-badge&color=1f6feb" alt="profile views" />
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/manaiakalani)
 [![Bluesky](https://img.shields.io/badge/Bluesky-0085FF?style=for-the-badge&logo=bluesky&logoColor=white)](https://bsky.app/profile/did:plc:kurxpumma6piictgpr424wcj)

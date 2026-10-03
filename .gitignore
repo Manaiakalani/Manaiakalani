@@ -1,5 +1,4 @@
 dist/
-dist-views/
 profile-summary-card-output/
 .github/scripts/__pycache__/
 .DS_Store

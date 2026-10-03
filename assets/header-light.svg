@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 854 200" width="100%" role="img" aria-label="Maximilian (Manaiakalani) Stein — Product Manager • Microsoft">
+  <defs>
+  <linearGradient id="hbg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#ffffff"/>
+    <stop offset="55%" stop-color="#f6f8fa"/>
+    <stop offset="100%" stop-color="#54aeff">
+      <animate attributeName="stop-color" values="#54aeff;#2da44e;#8250df;#54aeff" dur="18s" repeatCount="indefinite"/>
+    </stop>
+  </linearGradient>
+  <radialGradient id="hglow" cx="85%" cy="35%" r="55%">
+    <stop offset="0%" stop-color="#0969da" stop-opacity="0.30"/>
+    <stop offset="60%" stop-color="#0969da" stop-opacity="0.06"/>
+    <stop offset="100%" stop-color="#0969da" stop-opacity="0"/>
+  </radialGradient>
+  </defs>
+  <style>
+@font-face {
+  font-family: "Doto";
+  src: url("data:font/woff2;base64,d09GMgABAAAAAAOgAA0AAAAAGMAAAANNAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGhYGYD9TVEFUQAB8EQgKp0yrEAE2AiQDIgsgAAQgBYN8ByAbgRkALgpsY+rERdjHkDIA4eVTxoj7iiKC7/d73XNDAIoUabJR36ckgeTrK7BGkIg+QhUk4Pi0igbnNnkHQlu8WeIJbSb5ItYalgIx48q75y6yGRY9lE9lBCujr/xnB7h+v1WxFHmRUjx2hoZnzSbT8bcf2QVvDKESOpEhEamiqelZupSuQtq7kuLtxDn1J16Fr02gGpCEUCsUpwJ6o4R0Kn2cud46PpqOVF6ZqiorUioqT2UI14pTU2Y99RuKnv0vpehIHEBAbMr7+fsBIZRLaIYwDK0d9muIA9uDBoZQrB5EiioQgihPb0BCEZphgWaUHYBWU1ipfoydC5MrlGkM/0U/GqeLvwr77In7brrmsksuOFvoZoX4rzrE1z9K9AIuUDkBVB4DFAMaTNSqVaFGpVrVypShWkVD+wHHqZyDeRVO5zF5XkkgcamI0ba7bOzY8Y9xxNbE35HFbjtuCFf4/k/ajh1SkdHg1LZZQPi23Qp5W5cdChWW6pnLEa+RDUGPX3jFxe4mGpxb2rDBG4dMC17qQmuyrG3ewg3eOKOczvtCrL4bLgNH/WGdzGgXIhsqCzKeAdgH3fe2K7BwXUDyvepH3LmuTNUp2S3qve0E7PphIbB6ll1uwvsNH/3UXUB+ElVvb5P8cHc2RtWKbCj5HRtVNRLUSY2Htn9JR9h60fDlTmXPnzZqaswuxjOAsv8Z+bDLfhvNqLsS1i/9Ut8Zn2t8p7X+HWwndHy77rPCp2vkHRPgM0jlkkK+H4gvoqTkTexyVpQehORZYXd2yH4LBH+0fmPd4q/yVPQTPl+qePD9ex5q1MTP9EAolUDwb7U/FShUO+2cpY94ik0znWN375rtc6AEfl0kUBcDZgDCY1GVU4pEcQVuc4rQ7CuSci9EkRk/UazXX5TojHp9qe6YNAgaY0mE6igoyuXuJKrUxhawkiuMKiFfoEGoZCqd0K9KXAVcxFqukSOOKrmIy+acv9BqBHKVGkFLnNco1OYkEl9IFW1ZxG65XEqSS4Q6rkrCfEcykjYlo9e5pIjbYkvefIdCJD+dxldqS2NwKUweoa0s0UvmwJ3rw7RQLkN0VC9XfY62Ms670FWrPbih+s3WXB5TK9HAwP/LzQDCBQ==") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Space Mono";
+  src: url("data:font/woff2;base64,d09GMgABAAAAAAUkAA4AAAAACfwAAATSAAEAxQAAAAAAAAAAAAAAAAAAAAAAAAAAGhYbIBwqBmAAdBEIColch14BNgIkAywLLAAEIAWDfgcgG90HAK4GbGOS+Cl6FEaaHgqXYdnxOnzN4I4yHv7b73/73G+OaoMEyf0+LLlWEY00QtbEH2R1TTQxifO/Ou3LgddYLrJLZCdcJPclCskFIKeHyBvCRjgeD2Pv/K+1vX/435NQEItMJxFFk3lIZEgccXc6ksiEjGfaWWu0jdemukZauvSX/7WI/3PMdNEU/Tx1QBvqaPvLv0zqAKm69hM5oC68pntn+fz0rOxsTVHMxaanAyi8Ahk69x0IoBmAAoIEQxDQKE4CNK1qp+BHDcgAATRKl4nBrC1g+3rWJEQhiY6vLvppG2pAkTQJzs+/O54aaZoiNDoVwwBTDSAw+JfH68IDgzRVd/9jhGgEJ4kfWioNwoBBrMJu1Y7mPLXu+wRRUePlElWoI3GRNWVYiFVcO8/fzL+899Y9d/OdnHJnviUwlYAybVjdfe8woBeIg4D4B6D6zYJUR8hclsYC69erU1s5js1o1gY1B7Dn1kU2mOpD2sPVuEt0cKNOh7iVe+QHouWBUJ4HjXHE91m6cNgTKgiIMCxzXUFYwyIYQhPggRWXo6080v7AkZb1tOJcjeU7ELHIn2ERe+hb5w9sNYYVA6v1s0iH6CIra2O3cyfowApry8GGSPyDc4/5bHvEH8Tbwsyo8Eb7GJtSZacf4YzfMJC//nbg4EDtHzzx0xY96Wt7347+YU4jaogoHsLMbsMi7opF/CCBYu195Oq8u1g+kf3C6gEO39n+YKEc+LbzihAvNV4uPWzj37vjYGmZedix8dDaFXtmuiaqbDPqOKr785VaQ4HbNbt726BLcRfUGZQo2Kx1EB1sH5AqxYnF5OeR3YvW3lo7WXe57GgoIXyaWzonlf9L+JIG6EznCP1dluTv0hK60hXS+ntJSfMht8Vn+yMItLpruBVPg9wtc9/LUS5CuekBQMtb/M3unb4PNCU6OUlASNeOvdyTOHaH7Ou4T9Fwwux07mV39OoSjEht31nL96w9tHH5jpkOt0sZ3NZdXO709gE5TaNZkE0JJrFp8fm6M/zOQ5vmhViqy+sOAb6Ske140uz0GPq/d599CV+AL3diS+u2snSmlECj2gbaWwipydfaFhS0csPmolErZxvjGRKrnZMFhZ0F2TRV+OaA3PTK6GXF2sIV5g7/CWto6eLadj7w2/krv5T3dzK0KPtl818t4Q2VJruDNF37Pd5zeBksmnHbXrmXq1y+dKtOVruKsb9cV/eD/7sQYxOie9m4M8n++8pHW5dam3wx7/GWGeEhVQtqwgEggPD0+KWttCuw+G+8TfUbXn09Dge8e7cJwLliHEoHajEAAX6zGor1wDBihd8YhvXpJYHKSTp1KUI1EUiKyWR5ilXCwBcHIKA7k4ce9aQ6rVRQtQ7AVVhLkTDXpIwAT6Qq+d5I1VKDlWrQEB5HKzlWYCqFz3wzjBgybBaekZ6BFY9qiQPoxcV79NWrOSgmKXguMyhGDejbe3SF2WYZpphhJl7mmUfN4jNTIZFoyAiqMFsvgeKKCQsq1Dpk3IBBDzhrF4rS7Nk50WZnRYMezb2HzDauxwwGAj09kyKEE1GjyF5Lm5ZHvfPshos3GsjPPoKZ5P3Z+Xzjg3reBCof+0g2QPY5aMyXRLOyTR6L/tX2yorOr8K0yxsDBAA=") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+  </style>
+  <rect width="854" height="200" rx="16" fill="url(#hbg)"/>
+  <rect width="854" height="200" rx="16" fill="url(#hglow)">
+    <animate attributeName="opacity" values="0.85;1;0.85" dur="6s" repeatCount="indefinite"/>
+  </rect>
+  <rect width="854" height="200" rx="16" fill="none" stroke="#d0d7de" stroke-width="1"/>
+  <text x="48" y="42" fill="#0969da" font-family="Space Mono, ui-monospace, monospace" font-size="11" font-weight="400" letter-spacing="0.88">PROFILE</text>
+  <text x="806" y="42" text-anchor="end" fill="#656d76" font-family="Space Mono, ui-monospace, monospace" font-size="11" font-weight="400" letter-spacing="0.88">REDMOND, WA</text>
+  <text x="48" y="118" fill="#1f2328" font-family="Doto, Space Mono, monospace" font-size="40" font-weight="700" letter-spacing="-0.8">Maximilian (Manaiakalani) Stein</text>
+  <text x="48" y="158" fill="#656d76" font-family="Space Mono, ui-monospace, monospace" font-size="12" font-weight="400" letter-spacing="0.96">PRODUCT MANAGER  /  MICROSOFT</text>
+</svg>

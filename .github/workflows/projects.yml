@@ -10,6 +10,9 @@ on:
     paths:
       - ".github/workflows/projects.yml"
       - ".github/scripts/update_currently_building.py"
+      - ".github/scripts/fonts.py"
+      - ".github/scripts/requirements.txt"
+      - "assets/fonts/**"
 
 permissions:
   contents: write
@@ -24,7 +27,12 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          fetch-depth: 0 # full history so `git pull --rebase` below works
+
+      - name: Install font tooling
+        run: python3 -m pip install --quiet --user -r .github/scripts/requirements.txt
 
       - name: Generate project cards and update README
         env:
@@ -33,14 +41,28 @@ jobs:
         run: python3 .github/scripts/update_currently_building.py
 
       - name: Commit README changes
+        env:
+          ACTOR: ${{ github.repository_owner }}
+          ACTOR_ID: ${{ github.repository_owner_id }}
         run: |
-          git config user.name "Manaiakalani"
-          git config user.email "1502119+Manaiakalani@users.noreply.github.com"
+          git config user.name "$ACTOR"
+          git config user.email "${ACTOR_ID}+${ACTOR}@users.noreply.github.com"
           git add README.md
-          git diff --staged --quiet || (git commit --author="Manaiakalani <1502119+Manaiakalani@users.noreply.github.com>" -m "chore: update currently building section [skip ci]" && git push)
+          if git diff --staged --quiet; then
+            echo "README unchanged"
+            exit 0
+          fi
+          git commit -m "chore: update currently building section [skip ci]"
+          # Another workflow may have pushed to master meanwhile; rebase and retry.
+          for attempt in 1 2 3; do
+            git pull --rebase origin master && git push && exit 0
+            echo "push attempt $attempt failed; retrying"
+            sleep 5
+          done
+          exit 1
 
       - name: Push cards to projects branch
-        uses: crazy-max/ghaction-github-pages@v5
+        uses: crazy-max/ghaction-github-pages@1d6ee9b181a81033a16bd707a1401afa978daab4 # v5
         with:
           target_branch: projects
           build_dir: dist

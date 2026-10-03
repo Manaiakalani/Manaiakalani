@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """Generate Currently Building SVG cards and refresh the README section.
 
-Selects the most recently pushed public, non-fork, non-archived repos and
-writes dark/light SVG cards plus the README block between
-CURRENTLY_BUILDING markers.
+Selects public, non-fork, non-archived repos ranked by actual recent
+activity (commits in the last ACTIVITY_WINDOW_DAYS, with pushed_at as a
+tiebreaker) and writes dark/light SVG cards plus the README block between
+CURRENTLY_BUILDING markers. Repos in FEATURED are always listed first.
 """
 
 from __future__ import annotations
@@ -15,14 +16,21 @@ import re
 import subprocess
 import sys
 import textwrap
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 from fonts import font_face_css
 
 MAX_CARDS = 6
+ACTIVITY_WINDOW_DAYS = 30
 DIST_DIR = Path(os.environ.get("DIST_DIR", "dist"))
 README_PATH = Path(os.environ.get("README_PATH", "README.md"))
+
+# Repo names (lowercase) to always show first, in this order, regardless of
+# recent activity. Leave empty to rank purely by activity.
+FEATURED: tuple[str, ...] = (
+    # "world-clock",
+)
 
 # Extra repo names to hide from the grid (lowercase). CxE* and this profile
 # repo are always excluded; archived / private / forks are too.
@@ -76,7 +84,6 @@ THEMES = {
     },
 }
 
-CARD_FONT_CSS = font_face_css("grotesk", "mono")
 MONO = "Space Mono, ui-monospace, monospace"
 GROTESK = "Space Grotesk, DM Sans, sans-serif"
 
@@ -93,25 +100,82 @@ def require_owner() -> str:
     return owner
 
 
+def gh_api(endpoint: str, *, paginate: bool = False) -> tuple[int, str]:
+    cmd = ["gh", "api"]
+    if paginate:
+        cmd += ["--paginate", "--slurp"]
+    cmd.append(endpoint)
+    result = subprocess.run(
+        cmd, capture_output=True, text=True, encoding="utf-8", errors="replace", check=False
+    )
+    return result.returncode, result.stdout if result.returncode == 0 else (result.stderr or result.stdout)
+
+
 def fetch_repos(owner: str) -> list[dict]:
     endpoint = (
         f"users/{owner}/repos?sort=pushed&direction=desc&per_page=100&type=owner"
     )
-    result = subprocess.run(
-        ["gh", "api", "--paginate", endpoint],
-        capture_output=True,
-        text=True,
-        check=False,
-    )
-    if result.returncode != 0:
-        sys.exit(f"gh api failed:\n{result.stderr or result.stdout}")
+    code, body = gh_api(endpoint, paginate=True)
+    if code != 0:
+        sys.exit(f"gh api failed:\n{body}")
     try:
-        data = json.loads(result.stdout)
+        pages = json.loads(body)
     except json.JSONDecodeError as exc:
         sys.exit(f"invalid JSON from gh api: {exc}")
-    if not isinstance(data, list):
-        sys.exit(f"unexpected API payload: {data!r:.200}")
+    if not isinstance(pages, list):
+        sys.exit(f"unexpected API payload: {pages!r:.200}")
+    # --slurp wraps each page in an outer array; flatten it.
+    data: list[dict] = []
+    for page in pages:
+        if isinstance(page, list):
+            data.extend(page)
+        elif isinstance(page, dict):
+            data.append(page)
     return data
+
+
+def recent_commit_count(owner: str, name: str, since_iso: str) -> int:
+    """Commits on the default branch since ``since_iso`` (capped at 100)."""
+    code, body = gh_api(
+        f"repos/{owner}/{name}/commits?since={since_iso}&per_page=100"
+    )
+    if code != 0:
+        # 409 = empty repo; anything else is non-fatal, just rank by pushed_at.
+        return 0
+    try:
+        data = json.loads(body)
+    except json.JSONDecodeError:
+        return 0
+    return len(data) if isinstance(data, list) else 0
+
+
+def rank_repos(repos: list[dict], owner: str) -> list[dict]:
+    """Featured first (in FEATURED order), then by 30-day commits, then pushed_at."""
+    since = (datetime.now(timezone.utc) - timedelta(days=ACTIVITY_WINDOW_DAYS)).strftime(
+        "%Y-%m-%dT%H:%M:%SZ"
+    )
+    # Only query activity for the top candidates by pushed_at to bound API
+    # calls, but always include FEATURED repos even if they're stale.
+    candidates = repos[: MAX_CARDS * 3]
+    seen = {r["name"].lower() for r in candidates}
+    candidates += [
+        r for r in repos[MAX_CARDS * 3 :]
+        if r["name"].lower() in FEATURED and r["name"].lower() not in seen
+    ]
+    for repo in candidates:
+        repo["_recent_commits"] = recent_commit_count(owner, repo["name"], since)
+        print(f"  {repo['name']}: {repo['_recent_commits']} commits in {ACTIVITY_WINDOW_DAYS}d")
+
+    def featured_rank(repo: dict) -> int:
+        name = repo["name"].lower()
+        return FEATURED.index(name) if name in FEATURED else len(FEATURED)
+
+    # `candidates` arrives sorted by pushed_at desc from the API, and sorted()
+    # is stable, so pushed_at remains the tiebreaker.
+    return sorted(
+        candidates,
+        key=lambda r: (featured_rank(r), -r.get("_recent_commits", 0)),
+    )
 
 
 def is_featured(repo: dict, owner: str) -> bool:
@@ -194,6 +258,15 @@ def generate_card(repo: dict, theme_name: str, idx: int) -> str:
     updated = html.escape(humanize_pushed(repo.get("pushed_at") or "").upper(), quote=False)
     lang_color = LANG_COLORS.get(lang_raw, t["meta"])
 
+    stars_label = f"{stars} STARS"
+    forks_label = f"{forks} FORKS"
+    # Subset each font to just the glyphs this card renders.
+    grotesk_text = raw_name + "".join(wrap_description(repo.get("description") or "", width=48))
+    mono_text = (lang_raw.upper() if lang_raw else "CODE") + updated + stars_label + forks_label
+    card_font_css = font_face_css("grotesk", text=grotesk_text) + "\n" + font_face_css(
+        "mono", text=mono_text
+    )
+
     desc_svg = "\n".join(
         f'  <text fill="{t["desc"]}" font-family="{GROTESK}" font-size="13" font-weight="400" x="20" y="{76 + i * 18}">{line}</text>'
         for i, line in enumerate(desc_lines)
@@ -218,7 +291,7 @@ def generate_card(repo: dict, theme_name: str, idx: int) -> str:
     </linearGradient>
   </defs>
   <style>
-{CARD_FONT_CSS}
+{card_font_css}
   </style>
   <g clip-path="url(#{clip})">
   <rect width="400" height="{height}" rx="12" fill="{t["bg"]}"/>
@@ -231,8 +304,8 @@ def generate_card(repo: dict, theme_name: str, idx: int) -> str:
   <text fill="{t["title"]}" font-family="{GROTESK}" font-size="16" font-weight="400" x="20" y="56">{name}</text>
 {desc_svg}
   <line x1="20" y1="{rule_y}" x2="380" y2="{rule_y}" stroke="{t["rule"]}" stroke-width="1"/>
-  <text fill="{t["meta"]}" font-family="{MONO}" font-size="11" font-weight="400" letter-spacing="0.88" x="20" y="{meta_y}">{stars} STARS</text>
-  <text fill="{t["meta"]}" font-family="{MONO}" font-size="11" font-weight="400" letter-spacing="0.88" x="140" y="{meta_y}">{forks} FORKS</text>
+  <text fill="{t["meta"]}" font-family="{MONO}" font-size="11" font-weight="400" letter-spacing="0.88" x="20" y="{meta_y}">{stars_label}</text>
+  <text fill="{t["meta"]}" font-family="{MONO}" font-size="11" font-weight="400" letter-spacing="0.88" x="140" y="{meta_y}">{forks_label}</text>
 </svg>
 '''
 
@@ -292,7 +365,8 @@ def update_readme(section: str) -> None:
 
 def main() -> None:
     owner = require_owner()
-    featured = [repo for repo in fetch_repos(owner) if is_featured(repo, owner)][:MAX_CARDS]
+    eligible = [repo for repo in fetch_repos(owner) if is_featured(repo, owner)]
+    featured = rank_repos(eligible, owner)[:MAX_CARDS]
     if not featured:
         sys.exit("no public repos to feature; leaving README unchanged")
     write_cards(featured)

@@ -4,10 +4,20 @@
 GitHub README images are static, so this cannot increment on every page load.
 It seeds from the previous Komarev total, then adds GitHub repo traffic
 (the profile README) going forward. State lives on the `views` branch.
+
+Caveats:
+- The traffic API needs push access, which GITHUB_TOKEN does not grant for
+  this endpoint. The workflow must supply a PAT via PROFILE_TOKEN, otherwise
+  this script exits non-zero so the failure is visible instead of silently
+  freezing the badge at the seed value.
+- The traffic API only returns the trailing 14 days. GitHub disables cron
+  workflows after 60 days of repo inactivity; if that happens, days between
+  the last successful run and the re-enable are lost for good.
 """
 
 from __future__ import annotations
 
+import base64
 import json
 import os
 import subprocess
@@ -20,8 +30,8 @@ from fonts import font_face_css
 DIST_DIR = Path(os.environ.get("DIST_DIR", "dist-views"))
 SEED = int(os.environ.get("VIEWS_SEED", "709"))
 SEED_DATE = os.environ.get("VIEWS_SEED_DATE", "2026-09-08")
-MONO_CSS = font_face_css("mono")
 MONO = "Space Mono, ui-monospace, monospace"
+STRICT = os.environ.get("VIEWS_STRICT", "1") != "0"
 
 THEMES = {
     "dark": {"label_bg": "#21262d", "count_bg": "#1f6feb", "label": "#c9d1d9", "count": "#ffffff"},
@@ -46,6 +56,8 @@ def gh_api(path: str) -> tuple[int, str]:
         ["gh", "api", path],
         capture_output=True,
         text=True,
+        encoding="utf-8",
+        errors="replace",
         check=False,
     )
     return result.returncode, result.stdout or result.stderr
@@ -54,12 +66,11 @@ def gh_api(path: str) -> tuple[int, str]:
 def load_state(owner: str, repo: str) -> dict:
     code, body = gh_api(f"repos/{owner}/{repo}/contents/count.json?ref=views")
     if code != 0:
+        print("::warning::no prior count.json on views branch; starting from seed", file=sys.stderr)
         return {"seed": SEED, "seed_date": SEED_DATE, "days": {}}
     try:
         payload = json.loads(body)
         raw = payload.get("content", "")
-        import base64
-
         return json.loads(base64.b64decode(raw).decode("utf-8"))
     except (json.JSONDecodeError, KeyError, ValueError):
         return {"seed": SEED, "seed_date": SEED_DATE, "days": {}}
@@ -68,13 +79,25 @@ def load_state(owner: str, repo: str) -> dict:
 def fetch_traffic(owner: str, repo: str) -> dict:
     code, body = gh_api(f"repos/{owner}/{repo}/traffic/views")
     if code != 0:
-        print(f"traffic API unavailable ({code}): {body[:300]}", file=sys.stderr)
+        msg = (
+            f"traffic API unavailable (exit {code}): {body[:300].strip()} "
+            "-- is PROFILE_TOKEN set with repo scope?"
+        )
+        if STRICT:
+            sys.exit(f"::error::{msg}")
+        print(f"::warning::{msg}", file=sys.stderr)
         return {"count": 0, "uniques": 0, "views": []}
     try:
         data = json.loads(body)
     except json.JSONDecodeError:
+        if STRICT:
+            sys.exit("::error::traffic API returned invalid JSON")
         return {"count": 0, "uniques": 0, "views": []}
-    return data if isinstance(data, dict) else {"count": 0, "uniques": 0, "views": []}
+    if not isinstance(data, dict) or "views" not in data:
+        if STRICT:
+            sys.exit(f"::error::unexpected traffic payload: {body[:200]!r}")
+        return {"count": 0, "uniques": 0, "views": []}
+    return data
 
 
 def merge_days(state: dict, traffic: dict) -> dict:
@@ -124,9 +147,10 @@ def generate_badge(count: int, theme_name: str) -> str:
     width = label_w + count_w
     label_cx = label_w / 2
     count_cx = label_w + count_w / 2
+    mono_css = font_face_css("mono", text=label + value)
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width:.1f}" height="{height}" role="img" aria-label="profile views {value}">
   <style>
-{MONO_CSS}
+{mono_css}
   </style>
   <mask id="m"><rect width="{width:.1f}" height="{height}" rx="3" fill="#fff"/></mask>
   <g mask="url(#m)">

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 854 140" width="100%" role="img" aria-label="Mahalo — made with aloha in the PNW">
+  <defs>
+  <linearGradient id="fbg" x1="100%" y1="100%" x2="0%" y2="0%">
+    <stop offset="0%" stop-color="#ffffff"/>
+    <stop offset="55%" stop-color="#f6f8fa"/>
+    <stop offset="100%" stop-color="#54aeff">
+      <animate attributeName="stop-color" values="#54aeff;#2da44e;#8250df;#54aeff" dur="18s" repeatCount="indefinite"/>
+    </stop>
+  </linearGradient>
+  <radialGradient id="fglow" cx="15%" cy="65%" r="55%">
+    <stop offset="0%" stop-color="#0969da" stop-opacity="0.30"/>
+    <stop offset="60%" stop-color="#0969da" stop-opacity="0.06"/>
+    <stop offset="100%" stop-color="#0969da" stop-opacity="0"/>
+  </radialGradient>
+  </defs>
+  <style>
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("data:font/woff2;base64,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") format("woff2");
+  font-weight: 300 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Space Mono";
+  src: url("data:font/woff2;base64,d09GMgABAAAAAASUAA4AAAAACNwAAARDAAEAxQAAAAAAAAAAAAAAAAAAAAAAAAAAGhwbIBwqBmAAfBEICoc4hVkBNgIkAyYLJgAEIAWDfgcgG+AGCB6DbetxDnDMzGcOh6tiVvo6dYqH/19L75ud0N8NoYJWmDoilD2xPXWbqpBvha4iCggTh6qAish1fP7z8u97yUzxUjoFnArpGTdTQPkAuBOW0mLD/BcA+P/vHb8oLKvjf2mM0ev+1m1MWgvHBinqB5xIQHPi19peBPP4MsjdSwkXtWxdjQAVABmKIAiOI4KAxF8gsnW7ToEtHigKAAGSCFEo1p7jtUvjRuANE4vzrCtWqYFsMhvDRPHe8VKK32ShseMoBc0BIQX/Pe6IWxDV5m3/NxLS0Q9o3/j+NfSjkCWl4g4cAsXj8PpAF2ccLVGcRMXKyIwsrGoL0CwsUqqSTqG8i+Kbj9675abrrrrskouFlE4gRcHJ57YBloMuiE6IywByABkORaSTVmsJKK7nPZO9o8D2pnWuODp6Ndi6tnjwrLXcnGoqygnWkBhhGnvisHQBqi+2ul8cm06Xly5FzF5MidfGHoQBSI6LEoCMxgGCLK0awqgDx3h7TqBzJGGfs2Y7D6mby62UqppSC1QDAFXV7WOvImYvTeQ8Pn3R2DxUX6LUi5K/EvuvQ7LeoWnKsaVrdDrMB2MFSox29I8vlYTmy+dnhizQYNMx0nfTdWlsmgzPsPEpqF6zP3Z8qtXp+YsdaU1DyvE4mfKf/5O2CrL3S6Jk8Ovu7zUI2Vv0AYL/FlOWYCyf3L1k/iKpLC9Dm7orJ3e+OD83v1maNn1bgbQIuw5IQZLh8/CkaQvPLVQdZ1v1VXkGMdwsH5IJLemQV4WWyUMG5ev+VKfvp/dDnlQyYjKUuF9WTBaU/efEc4ZrZAJqJ5WREQMSJnc1bxTSiV3XDJs8birF2729hx4XHUe5XCsax95cs3Tbwjkbxo6bvWHhtqWz14zVm01qz6o203izjo9vW9VTeSlYJ39XtqQlWFMDI2P09ypzXaF/le99UwPfiSPblk1yTS8trNiG+qHZ/Z/3zw5JblSrsyY/OZopPlCr0xtqldh6o6ETDm+/qiveKKy/tSVtFUqsunLl5kLKJuHf9YxEv0CfDnv/Uf+ATeTWFgV0hBwNwd3+7R6uJVPKPAAIEO4rjxMbWp2kP7ZO3Ffg3a+NsQCfPqsBVox8qhQBalFAwNctyq5iGCT59QMZAJTpf88mayFT1Eogk1hJijHwGdMR0CYGB3zHZXUacEhuB7gLVQzh7hRDObrHcLI8Y3hhYc9oKJGwHa2QmGML1SiTjdGvV59xRCmSJMsgUhpIN1ajoXadrFhPNUJV/UzGUA3o1tl/P0XGG6ePaoyxRFH6jDPOKGPlSJSoVz/Yb7wOCTqphhtR5cJeQ7r14AiaHyvR2Nmdw6p59Io+0aJbr/GGtBsjWYIkSVLlMjAyKJPb36yk4mn9vdZCQzW692jvxxrFOe3inkM92k8DVW3v3xFQ+4QemJUlacJM8dJ1tdoheoV+Tqxf8ajVIAA=") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+  </style>
+  <rect width="854" height="140" rx="16" fill="url(#fbg)"/>
+  <rect width="854" height="140" rx="16" fill="url(#fglow)">
+    <animate attributeName="opacity" values="0.85;1;0.85" dur="6s" repeatCount="indefinite"/>
+  </rect>
+  <rect width="854" height="140" rx="16" fill="none" stroke="#d0d7de" stroke-width="1"/>
+  <text x="48" y="80" fill="#1f2328" font-family="Space Grotesk, DM Sans, sans-serif" font-size="24" font-weight="400">Mahalo for stopping by</text>
+  <text x="48" y="110" fill="#656d76" font-family="Space Mono, ui-monospace, monospace" font-size="11" font-weight="400" letter-spacing="0.88">BUILT WITH ALOHA  /  REDMOND, WA</text>
+</svg>

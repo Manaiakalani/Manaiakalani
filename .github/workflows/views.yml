@@ -10,6 +10,9 @@ on:
     paths:
       - ".github/workflows/views.yml"
       - ".github/scripts/update_views.py"
+      - ".github/scripts/fonts.py"
+      - ".github/scripts/requirements.txt"
+      - "assets/fonts/**"
 
 permissions:
   contents: write
@@ -24,17 +27,22 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+
+      - name: Install font tooling
+        run: python3 -m pip install --quiet --user -r .github/scripts/requirements.txt
 
       - name: Generate views badge
         env:
+          # Traffic API requires a PAT with repo scope; GITHUB_TOKEN gets 403.
+          # The script fails loudly if traffic is unavailable.
           GH_TOKEN: ${{ secrets.PROFILE_TOKEN || secrets.GITHUB_TOKEN }}
           OWNER: ${{ github.repository_owner }}
           REPO: ${{ github.event.repository.name }}
         run: python3 .github/scripts/update_views.py
 
       - name: Push to views branch
-        uses: crazy-max/ghaction-github-pages@v5
+        uses: crazy-max/ghaction-github-pages@1d6ee9b181a81033a16bd707a1401afa978daab4 # v5
         with:
           target_branch: views
           build_dir: dist-views

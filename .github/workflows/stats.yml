@@ -23,19 +23,26 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
 
-      - uses: vn7n24fzkq/github-profile-summary-cards@release
+      - name: Resolve local UTC offset (DST-aware)
+        id: tz
+        run: |
+          offset=$(python3 -c 'from datetime import datetime; from zoneinfo import ZoneInfo; print(int(datetime.now(ZoneInfo("America/Los_Angeles")).utcoffset().total_seconds() // 3600))')
+          echo "offset=$offset" >> "$GITHUB_OUTPUT"
+          echo "America/Los_Angeles is currently UTC$offset"
+
+      - uses: vn7n24fzkq/github-profile-summary-cards@09ba4dde3f9b05828cb99553561db3f4ff07703f # release @ v0.12.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           USERNAME: ${{ github.repository_owner }}
           BRANCH_NAME: stats
-          UTC_OFFSET: -8
+          UTC_OFFSET: ${{ steps.tz.outputs.offset }}
           AUTO_PUSH: false
 
       - name: Push to stats branch
-        uses: crazy-max/ghaction-github-pages@v5
+        uses: crazy-max/ghaction-github-pages@1d6ee9b181a81033a16bd707a1401afa978daab4 # v5
         with:
           target_branch: stats
           build_dir: profile-summary-card-output

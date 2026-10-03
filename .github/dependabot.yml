@@ -1,7 +1,9 @@
-# Dependabot configuration - auto-generated
+# Dependabot configuration
 # https://docs.github.com/en/code-security/dependabot/dependabot-version-updates
 version: 2
 updates:
+  # Actions are pinned by SHA in the workflows; Dependabot bumps the SHA and
+  # keeps the trailing `# vN` comment in sync.
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
@@ -11,3 +13,13 @@ updates:
     labels:
       - "dependencies"
       - "github-actions"
+
+  - package-ecosystem: "pip"
+    directory: "/.github/scripts"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+    open-pull-requests-limit: 5
+    labels:
+      - "dependencies"
+      - "python"

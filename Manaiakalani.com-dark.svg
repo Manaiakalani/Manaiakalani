@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="166" role="img" aria-label="Manaiakalani.com">
+  <defs>
+    <clipPath id="clip_dark_1"><rect width="400" height="166" rx="12"/></clipPath>
+    <linearGradient id="accent_dark_1" x1="0%" x2="100%">
+      <stop offset="0%" stop-color="#1f6feb">
+        <animate attributeName="stop-color" values="#1f6feb;#a371f7;#1f6feb" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#a371f7">
+        <animate attributeName="stop-color" values="#a371f7;#1f6feb;#a371f7" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+  </defs>
+  <style>
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("data:font/woff2;base64,d09GMgABAAAAAArwABMAAAAAFzwAAAqIAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGoFRG4YYHIEIP0hWQVJmBmA/U1RBVFgnHgCBBC9EEQgKjHyKLzCLIgE2AiQDYAsyAAQgBYQsByAbcxSzERVsHABQ778G4r9K4MlONd4QFwyCVjIxm4n2t0WyDYbKIjRS5WOrOAyPwYTD3/hyshZXyXCFwS2XSwjRGpmZvQcuIOkqIuEYPODVljWgrNCAQtXWM7i1cqm7V/R6yaWV4XYKDuCtABpAn8bcEwBwfAg3/XdHsCRVY1QdUgt41VMRo+yrK1P1QTcriAWoiJ/nRKdXXbbfflgbXtfZnXOj4jSUFAgA6H+AcIFXa6Wdvn50ux/ad0ESMjKWUEW4qLnZe5jrJ54Q7D4hq8RFRqjLqRAoJokgbFI+Fa1iY7z7oLXOwQMEsz++CkF1wHIAD1CBEGQcRQ3U4oXq8kMNBaBaFFYS5DIqIiGCFi8+fPkJQBiNJ3jeZn5EAUVaCD0XirlwSKopM9/E3G2Ac7Eo6G/AmDeMsIIZhoOAD1/Otc0+3cgVShXL8e6eIKDXTga6Zl1ZHdyP7XaOw50B9U4ExNH9jnGoQBDMyCyRXB99jx102Ehgd5eHEI6ChqYuoll3u49MUY/rpKZbca8n8wX9LXQJdW9J3KtDO88deqEP+qKfgr48C7LuFgPqFvnfiIfEK+wQ92I1eBEO1RNfbU65mivonKiWyv+6/9uw8ep5u1ZPh3oKg2N1CZam38xhWdXBH1Qn1TBec53QkxwRceeiWl2ad0jcnctCpJ5YSnPKCroJT8t1UaC+tAK0UG34LjxKT4TooTKCXqrkjIFOhUg56N2Lh91BsUtBMUMpnlTBlSM7mgW7W6A5YS/CLhzEwA4cwCFM7MFOGNb0r8aWxw4PdIERH7f2gEruydX0hIoQx5dMUOjvZ5W6qGzt9UKbSjcFh6gGbhZ7geVGgU1UgOHCMAEsC/um4+CbgG//TTJgh/kHhmiiDWYQQDHql6nkcrCXY4mcqKmbQuHJKJWsJ5hMJUmQQ15MCWzen0rskBGRwOrhu1i3GfCMlrNsvb0GzbmIAgQQb6kLTCNDFBGMwoBJ6PGDg04C0K0nShoCRJAkQAEZlLwC+cjlvkIudls1m3IJ/gwFoMIw3te0iL8xIRVJUGDyQwP4N/+AcTzJRCspylXp0qPfkAkOzips9BmJ9eKP8qfffe4zn/jIh973XgTCPi7i8BQTZ0miMpPIFBii2EiG61Dgd3QzAXfOeicPwDjAMjADcjqQLegnlBWEGEaSxxRB0o4mTJyuY5i7HPYoR3pV5hDwODy6ig9bcogGPzHmJcjy/Ml1cEzy9MG2s0z2+mXTJihv3MiyovmyhZBqM8s+Prd5M3l0wRaOk+R6bqO25OMtJ/fzyt45DuxzswlJf66NVhOnxkG0m7qe/Ggqpm8Ks3+02TJ2IzbGbOI4JTL/g34FTpaYWc1xEguNs9DsWfIz19kFu1lwfsuawb3vR4VxP7vLg2S1Wn+s3RaKdTQcm9uKwkwrsiElei4W0zDm4xV7gp9Dbr+zSVCUoxG5/bL6574jj37PPf8t2m8CXkgFT+vayS8tTQa7I57tu2lSMVwHNUVqRtC87l0T22DGHXDSXEZtcD244U2+PPCgy/hWSzr68i35hyMzdqfkNJp4U67UnWxYENXuKm0otrH2uqJyF07Wp2siUm1p6Xeqkxm/xebZLBZziXHhK/9l2uvjxNbejoaTmtBUnXmGTqtkFz1rCdpU3t5az/+qsyelphZkQF8vHBdNU+VshWmyfcWFBZ06oW78+4JYc2GMXl+bliYZVIY0aVdaX1Vb8/73L2XX6TwkzP7lE+GT56IGYu8RRjWax74QvvgFkkv8ir+6RppxMvZq49v5VeHf4YJ0ONfMH7ekGPKK9Jd4eaHeklEcF1+UXi4W6k7n5JaXFMV2hMH9aOb9q8UKfWOiTrLFiVFVlfm20p7u3gv09ZJxozhZypfWvN2mpF+qWN/QM9qsaua0hvpe5iS8PS0Dv3YsPSfbnGUxpLCmQTV3IKr3A+GDv8S/vhO+a9VoHAKcA0F3gh71ZnYmRmB+aQ6LB/FF/12B4E464cpgYFX6bibXTk8oak8ITxznl1Z4xDYZt8Vhg3ZwxpjscTTzCGZoUrKvk/6UZ4Vn3fOlY+4X7p+Rz4zOgT/o1OkEgVXgYX6GgECwTiBgA6DLTK5pH/rbHOvtCBWJJmXRHffH8/FnrCMHqScty/vyifxxBR4JRA5aN/ETAaxvbPjns161xx+Lko6fHDRv1Y2nIPDCY0Sne5wsWvRoRU8ow4mNP/i+JNXpgKZISGcOP51pn0GAxU+8Zr1yfrq7hgAQmckaxv9XroHgkTXdqFUrZFRb/Z9ej025NN5strqEdmKmKDaNnTzLO5UWd66SwvgmyaMPsBhHaE6ETg80obKykEEFPQrURWrmDJrbtjodigUIOU6OkNmRk+hJonDLzvW6dYPOVu/2TFsJP3/Rz4mcQbjCjEz2v3ySONsEFYyTts0IUIZYWJWZ1tnqj4W3ujzrGV4qlAlwtvXULQzn8q2sELJCC1VNlo3EYkzzehbQxWVO1yFcO9WEb3QEQl03A6FgGQ8S+JkI4rflMAyE5rbHHo3tzCEE8lhjs1kIBUydnEw3SG5O0WmKL+AhFj3PjGdiXl8k4hJZTgR7Z6waVoytGBXajUREedwQ+nwejXC/rvRdSkG2h/n26V8kHw/aruEAUdB5DEoZxIR9YL/STvuKM8YySc9mA7ntvsabO38o8URKD67aaUJaBgW0SCADZzGEbH0I3iZB5DUIuhjHrQEjKOoce1YEZmCBpaUQy9d/UGadZ0NLywSy5Aol//REKpvNj8bAokyJdTrrGPgLketTlDsCgKoAihy0aNyKQupra2QtQRKJGDSx6M/p0ID61BQGRsyZR+AphqJf5+PdphtdQxfKzPydO36swm4ng9zHyyEobmursjIZqrUHo0WpiYlU4Pq4PWEHhODszBT9OTrsF82zpGC8o9CSEW4bdhXxMlwWs4AsWWcwLMlfWNn/RK5WB0q4dCSsDKqLnM3kCYcATVM0habosO5uJrQysPNgkdgW2cLp2gCmMiAzKDM6BWKJnwh0fTiXa+sxQLAgYhagjXLEHBxc60slgBC+xSqVhP4JjL7gzU3oBYHpaZYJY3ODi0ZSmhRNR84THZQCZ2RRywACAIyrYgZKAIiXfp9QcBm1prqRwRXlsH+Y7u7s2Ds5OpfLuBZXsib1XidFgQAJ/R8+aunwEC+JRXYU4M2tiHcB3r6rm4Smni/X0wU6CSDg/43Y8lqBtY6DwNnGlWotQYGyRUNK15dhRFa2MIeLxknW9MCLk6TSTspeUo4yxxQpVkPjODFfo9nFQpfdFIMJNs2ke/PXETCOgNFCQ3CJLtbvSoaNGvAKuvPoYOE80fA/T9262trU5rlJpMwNdlFUhAD9MUrzCFLcU9stI5x9H7s1BjFeYjNh0r0chgwY5KSVIa1K1aoTQp+sZdWlp7toIYcJztRpI0RVIhimHgd5LWZyGmTpOCmtOMe8WHTStFypasAQ2zN1S+GKE8ak6jdqVnFIl3EjulyIoeQ4R08HsWaygc7HBxhdlppdo8/Ag0adZ2RIkVbYeQqUNsIc1XdaNRkaRGD6kIlWWm66A9YY1q21Acplr2DlmcZYTRhVZLCz+kEZAA==") format("woff2");
+  font-weight: 300 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Space Mono";
+  src: url("data:font/woff2;base64,d09GMgABAAAAAAT0AA4AAAAACdQAAASjAAEAxQAAAAAAAAAAAAAAAAAAAAAAAAAAGhYbIBwqBmAAdBEICok8h00BNgIkAygLKAAEIAWDfgcgG8gHIxE2g1FaBvFXB7wh9dFHWIDheFikGUlUp44SXSb8zv6Fh4cHUDYRwk/t0H3fdY6HJ//qO7feG1W1PuSF0d0LMdpoJl1nVrShkUrqADhcY0vooWq3DRdv1iCJRviENvGmkST5Lw9wNDckE/rT5pLwpJJmehviiZhImZApiWiY/2OpF63NUXpgh3oU+a+qsQr4RPb2PJsqOFJTNyqQ8aai23BrqsjNIxBoAJIQWkIgmzs/dttjv65RNQwEBLLlKxNkaq2zT7j4XDOBUBvX6eS42hDp0XQpLj/87HjPJn+nGBqrUpJqhFX0k8czetLCfn38/wtGa5wBmzd+TI9iYWKEVmBqrooGXzv+pJ1KbeHGm+1sV/s6SFd/IBZuRKDu4UCH/EwPXrznSU94zMMe8mBh5QoxUBtuytcsZ6a4hPgOUAe2cYAneKiqSzMZrZfmFY3G9E6ryBubMbbp6OjhH9dolqFyXDkm9xvdw8qR+YRLX4+YeKNc9tpr5Lj59dfzpa8y/lq57I03IorxV18tQ00NTY3EwDORH5GjmfIIblzqSmpWpc5VEyhRhmgpuS4kaAoHpEoVOY2Xby2nFSc7RT4161GYsa/2bTGxqIbUiwwryTlV5TLyQKaEtrrrMesG74eIHG1QLrpq6r+upsEZ2NPKJyt1T5a2afh0H1uOKceVow2rP+zSx2PiiXLZY43qUZcTh+c4qlSOZjSOIcmfnViy+OHtVx65eUupN9l+y/J8w/7+v62AfOyeHlkd6J6vYWUBLtUhsIAGosF2bgezuszJfFbB3ULsrgFrkmKAEKA+lGScbGPyeyzGuhLLoosfwqBC9sMrosPjMuPgh64MY+HfdyZhJ7HO5lt0T6p5zLcSizu6O3hyUEeM/YaaUmfErvwDaHCwC/VfDcVb9FwtLakhSYyfoNKQC0WaHGguEiu7zNiKnfUr1nbND6yOdE3XRHFWkT+ZmbTcgxVI3MlvaLqjdc9Be9MNhx2/PWRTt3x1tFHeaTffkFX6e1as3v8UXlE2+Df2U71F+x53Z312Tf7eNWHasaopealJiEGuIipzS4ZQ+pWYDKr7IQU2gbTczf1YN/OuofW7EdqWy3dR6zQUMdIc06QymSCDwb65kojl5/iN5+Xk7ew4eW8Btorkor0nkAhYFbQB1lBXxV7U8tXUT8mfSk9drU9CUAiDg8hc5G20Vi4gqesNrP15Zu0zxdJeevMvwA+HgEAgPHfHLSPXHiez3W+j7epL+Pi7a9bg8y+652sPTr30MoYlEHyh9OlkAEZbzNhUgCBC9v4P7OQ42+6ta29H2K6nZ912c7bbdmMCUzatQBg3G3GkStRja/CAU0ZM9WGk1rOMaitfRr00JBhD3WAuZnhxdO8KFO4OIoHQCSLg8BTI4iLUA3OYy+Lklz0EcgCZOAAxj+MEaTk7CYGDIwQTOjkpHBlYrEA0zndmYzhARtgrAIGUxwdyJ0eso2JNVo/HjfmNM57AWcpywGNwOCLTyNhIj8kqq0fRWXs3W8FcK557qggyjNSpkLsunxUIAA0tkjupLmCg7aASp4omcye14caZ6jN/g91tVAQ=") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+  </style>
+  <g clip-path="url(#clip_dark_1)">
+  <rect width="400" height="166" rx="12" fill="#0d1117"/>
+  <rect width="400" height="3" fill="url(#accent_dark_1)"/>
+  </g>
+  <rect width="400" height="166" rx="12" fill="none" stroke="#30363d" stroke-width="1"/>
+  <rect x="20" y="24" width="6" height="6" fill="#f1e05a"/>
+  <text fill="#8b949e" font-family="Space Mono, ui-monospace, monospace" font-size="11" font-weight="400" letter-spacing="0.88" x="32" y="31">JAVASCRIPT</text>
+  <text fill="#8b949e" font-family="Space Mono, ui-monospace, monospace" font-size="11" font-weight="400" letter-spacing="0.88" x="380" y="31" text-anchor="end">4H AGO</text>
+  <text fill="#58a6ff" font-family="Space Grotesk, DM Sans, sans-serif" font-size="16" font-weight="400" x="20" y="56">Manaiakalani.com</text>
+  <text fill="#8b949e" font-family="Space Grotesk, DM Sans, sans-serif" font-size="13" font-weight="400" x="20" y="76">Portfolio for Manaiakalani</text>
+  <line x1="20" y1="126" x2="380" y2="126" stroke="#21262d" stroke-width="1"/>
+  <text fill="#8b949e" font-family="Space Mono, ui-monospace, monospace" font-size="11" font-weight="400" letter-spacing="0.88" x="20" y="148">1 STARS</text>
+  <text fill="#8b949e" font-family="Space Mono, ui-monospace, monospace" font-size="11" font-weight="400" letter-spacing="0.88" x="140" y="148">0 FORKS</text>
+</svg>

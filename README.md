@@ -55,18 +55,18 @@ vibes: 🌺 Hawaiian roots · 🌲 PNW life · 🐕 doge · 🌮 tacos · 😂 m
   </picture>
 </a>
 <br/>
-<a href="https://github.com/Manaiakalani/cards-against-ai">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/cards-against-ai-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/cards-against-ai-light.svg" />
-    <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/cards-against-ai-dark.svg" alt="cards-against-ai" />
-  </picture>
-</a>&nbsp;
 <a href="https://github.com/Manaiakalani/borderlands-loot-hub">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/borderlands-loot-hub-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/borderlands-loot-hub-light.svg" />
     <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/borderlands-loot-hub-dark.svg" alt="borderlands-loot-hub" />
+  </picture>
+</a>&nbsp;
+<a href="https://github.com/Manaiakalani/cards-against-ai">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/cards-against-ai-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/cards-against-ai-light.svg" />
+    <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/cards-against-ai-dark.svg" alt="cards-against-ai" />
   </picture>
 </a>
 <br/>

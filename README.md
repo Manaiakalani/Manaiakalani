@@ -70,18 +70,18 @@ vibes: 🌺 Hawaiian roots · 🌲 PNW life · 🐕 doge · 🌮 tacos · 😂 m
   </picture>
 </a>
 <br/>
-<a href="https://github.com/Manaiakalani/rainier-bandit">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/rainier-bandit-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/rainier-bandit-light.svg" />
-    <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/rainier-bandit-dark.svg" alt="rainier-bandit" />
-  </picture>
-</a>&nbsp;
 <a href="https://github.com/Manaiakalani/yeshello.lol">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/yeshello.lol-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/yeshello.lol-light.svg" />
     <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/yeshello.lol-dark.svg" alt="yeshello.lol" />
+  </picture>
+</a>&nbsp;
+<a href="https://github.com/Manaiakalani/rainier-bandit">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/rainier-bandit-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/rainier-bandit-light.svg" />
+    <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/rainier-bandit-dark.svg" alt="rainier-bandit" />
   </picture>
 </a>
 

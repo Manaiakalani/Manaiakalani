@@ -77,11 +77,11 @@ vibes: 🌺 Hawaiian roots · 🌲 PNW life · 🐕 doge · 🌮 tacos · 😂 m
     <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/destiny-code-finder-dark.svg" alt="destiny-code-finder" />
   </picture>
 </a>&nbsp;
-<a href="https://github.com/Manaiakalani/DuneBox-docs">
+<a href="https://github.com/Manaiakalani/world-clock">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/DuneBox-docs-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/DuneBox-docs-light.svg" />
-    <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/DuneBox-docs-dark.svg" alt="DuneBox-docs" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/world-clock-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/world-clock-light.svg" />
+    <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/world-clock-dark.svg" alt="world-clock" />
   </picture>
 </a>
 

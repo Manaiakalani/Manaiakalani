@@ -62,26 +62,26 @@ vibes: 🌺 Hawaiian roots · 🌲 PNW life · 🐕 doge · 🌮 tacos · 😂 m
     <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/borderlands-loot-hub-dark.svg" alt="borderlands-loot-hub" />
   </picture>
 </a>&nbsp;
+<a href="https://github.com/Manaiakalani/Manaiakalani.com">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/Manaiakalani.com-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/Manaiakalani.com-light.svg" />
+    <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/Manaiakalani.com-dark.svg" alt="Manaiakalani.com" />
+  </picture>
+</a>
+<br/>
 <a href="https://github.com/Manaiakalani/filament-shelf">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/filament-shelf-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/filament-shelf-light.svg" />
     <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/filament-shelf-dark.svg" alt="filament-shelf" />
   </picture>
-</a>
-<br/>
+</a>&nbsp;
 <a href="https://github.com/Manaiakalani/sans-comic">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/sans-comic-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/sans-comic-light.svg" />
     <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/sans-comic-dark.svg" alt="sans-comic" />
-  </picture>
-</a>&nbsp;
-<a href="https://github.com/Manaiakalani/DuneBox">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/DuneBox-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/DuneBox-light.svg" />
-    <img src="https://raw.githubusercontent.com/manaiakalani/manaiakalani/projects/DuneBox-dark.svg" alt="DuneBox" />
   </picture>
 </a>
 

@@ -76,7 +76,7 @@ vibes: 🌺 Hawaiian roots · 🌲 PNW life · 🐕 doge · 🌮 tacos · 😂 m
     </td>
     <td width="50%" valign="top" align="center">
       <a href="https://github.com/Manaiakalani/DuneBox">
-        <img src="https://raw.githubusercontent.com/Manaiakalani/DuneBox/main/art/animated-box.gif" alt="DuneBox" width="100%" />
+        <img src="https://media.githubusercontent.com/media/Manaiakalani/DuneBox/main/.github/social-preview.png" alt="DuneBox" width="100%" />
       </a>
       <br />
       <strong><a href="https://github.com/Manaiakalani/DuneBox">DuneBox</a></strong>
